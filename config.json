@@ -1,0 +1,96 @@
+{
+  "version": "10.0.0",
+  "seed": 20261020,
+  "evidence_tier": "retrospective_internal_only",
+  "study_selection": "V10 retrospective integration after V1-V9; existing139bottles; history winners are descriptive only",
+  "primary_model": "v10_strategy_router",
+  "primary_regression_metric": "equal_target_macro_training_IQR_normalized_RMSE",
+  "primary_comparisons": [
+    "v10_pls2_reference",
+    "v10_v9_unanchored_reference"
+  ],
+  "primary_status": "V10 program declared after inspecting V1-V9; historical development optimism remains",
+  "nominal_coverage": 0.9,
+  "calibration_fraction": 0.25,
+  "ensemble_options": {
+    "ensemble_penalty": 0.1,
+    "enable_strategy_router": true,
+    "strategy_folds": 3,
+    "include_extended": true,
+    "include_log": true,
+    "include_weighted_kernels": true
+  },
+  "risk_retention_fractions": [
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "allowable_absolute_errors_g_L": null,
+  "final_boundaries": {
+    "noise_levels": [
+      0.005,
+      0.02
+    ],
+    "intensity_factors": [
+      0.98,
+      1.02
+    ],
+    "offset_levels": [
+      -0.02,
+      0.02
+    ],
+    "windows_per_modality": 6
+  },
+  "profiles": {
+    "smoke": {
+      "regression_repeats": 1,
+      "regression_folds": 2,
+      "inner_folds": 2,
+      "candidates_per_family": 1,
+      "bootstrap": 30,
+      "trees": 12,
+      "scale_crossfit_folds": 2,
+      "strategy_folds": 2
+    },
+    "pilot": {
+      "regression_repeats": 1,
+      "regression_folds": 3,
+      "inner_folds": 2,
+      "candidates_per_family": 2,
+      "bootstrap": 300,
+      "trees": 80,
+      "scale_crossfit_folds": 2,
+      "strategy_folds": 3
+    },
+    "main": {
+      "regression_repeats": 5,
+      "regression_folds": 5,
+      "inner_folds": 3,
+      "candidates_per_family": 4,
+      "bootstrap": 2000,
+      "trees": 160,
+      "scale_crossfit_folds": 3,
+      "strategy_folds": 3
+    }
+  },
+  "fixed_decisions": {
+    "all_11_analytes": true,
+    "drop_or_merge_rare_classes": false,
+    "new_sensory_classification_training": false,
+    "select_best_outer_results": false,
+    "industrial_tolerances_supplied": false,
+    "same_model_comparison_uses_same_fit_calibration_test": true,
+    "physical_drift_experiment": false,
+    "historical_outer_test_winner_splicing": false
+  },
+  "previous_results": "V1-V9 historical ledger only; no concatenated test-winner predictions reported as new performance",
+  "formal_modes": [
+    "ablation",
+    "interval",
+    "boundaries",
+    "measured_abv"
+  ],
+  "optional_ethanol_quantification": true,
+  "historical_winner_scope": "Minimum pooled RMSE among archived evaluations; descriptive, context-dependent, not a validated composite"
+}
