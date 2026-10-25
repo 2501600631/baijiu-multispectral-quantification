@@ -1,0 +1,1114 @@
+{
+  "status": "PASS",
+  "model_fitting": false,
+  "independent_bottles": 139,
+  "targets": [
+    "acetaldehyde",
+    "methanol",
+    "n_propanol",
+    "ethyl_acetate",
+    "isobutanol",
+    "acetal",
+    "n_butanol",
+    "isoamyl_alcohol",
+    "ethyl_butyrate",
+    "ethyl_lactate",
+    "ethyl_hexanoate"
+  ],
+  "spectra_shapes": {
+    "nir": [
+      139,
+      751
+    ],
+    "raman": [
+      139,
+      473
+    ],
+    "uv": [
+      139,
+      181
+    ]
+  },
+  "source_audit": {
+    "experimental_unit": "bottle_id",
+    "n_bottles": 139,
+    "n_targets": 11,
+    "n_chemistry_all": 139,
+    "chemistry": {
+      "workbook": "chemistry.xlsx",
+      "sheet": "Sheet1",
+      "header_row": 1,
+      "raw_headers": [
+        "Bottle ID",
+        "Source grade",
+        "Measured alcohol strength",
+        "Coefficient(actual)",
+        "Coefficient(60.5)",
+        "Weight",
+        "Adjusted weight",
+        "Acetaldehyde(g/L)",
+        "Methanol(g/L)",
+        "n-Propanol(g/L)",
+        "Ethyl acetate(g/L)",
+        "Isobutanol(g/L)",
+        "Acetal(g/L)",
+        "n-Butanol(g/L)",
+        "Isoamyl alcohol(g/L)",
+        "Ethyl butyrate(g/L)",
+        "Ethyl lactate(g/L)",
+        "Ethyl hexanoate(g/L)",
+        "Physical grade",
+        "Supplied acetate to hexanoate ratio",
+        "Sensory grade",
+        "Combined grade",
+        "Retest flag"
+      ],
+      "normalized_headers": [
+        "Bottle ID",
+        "Source grade",
+        "Measured alcohol strength",
+        "Coefficient(actual)",
+        "Coefficient(60.5)",
+        "Weight",
+        "Adjusted weight",
+        "Acetaldehyde(g/L)",
+        "Methanol(g/L)",
+        "n-Propanol(g/L)",
+        "Ethyl acetate(g/L)",
+        "Isobutanol(g/L)",
+        "Acetal(g/L)",
+        "n-Butanol(g/L)",
+        "Isoamyl alcohol(g/L)",
+        "Ethyl butyrate(g/L)",
+        "Ethyl lactate(g/L)",
+        "Ethyl hexanoate(g/L)",
+        "Physical grade",
+        "Supplied acetate to hexanoate ratio",
+        "Sensory grade",
+        "Combined grade",
+        "Retest flag"
+      ],
+      "field_to_source_header": {
+        "sample_id": "Bottle ID",
+        "ethanol": "Measured alcohol strength",
+        "acetaldehyde": "Acetaldehyde(g/L)",
+        "methanol": "Methanol(g/L)",
+        "n_propanol": "n-Propanol(g/L)",
+        "ethyl_acetate": "Ethyl acetate(g/L)",
+        "isobutanol": "Isobutanol(g/L)",
+        "acetal": "Acetal(g/L)",
+        "n_butanol": "n-Butanol(g/L)",
+        "isoamyl_alcohol": "Isoamyl alcohol(g/L)",
+        "ethyl_butyrate": "Ethyl butyrate(g/L)",
+        "ethyl_lactate": "Ethyl lactate(g/L)",
+        "ethyl_hexanoate": "Ethyl hexanoate(g/L)",
+        "original_grade": "Source grade",
+        "coefficient_actual": "Coefficient(actual)",
+        "coefficient_60_5": "Coefficient(60.5)",
+        "weight": "Weight",
+        "adjusted_weight": "Adjusted weight",
+        "physical_grade": "Physical grade",
+        "ethyl_acetate_hexanoate_ratio_supplied": "Supplied acetate to hexanoate ratio",
+        "sensory_grade": "Sensory grade",
+        "combined_grade": "Combined grade",
+        "retest_flag": "Retest flag"
+      },
+      "aliases": [],
+      "formula_count": 0,
+      "n_bottles": 139,
+      "missing_reference_values": 0,
+      "duplicate_bottle_ids": 0,
+      "metadata_distributions": {
+        "original_grade": {
+          "Source_class_C": 66,
+          "Source_class_A": 33,
+          "Source_class_B": 32,
+          "Source_class_F": 8
+        },
+        "physical_grade": {
+          "Source_class_A": 62,
+          "Source_class_C": 45,
+          "Source_class_B": 18,
+          "Source_class_D": 6,
+          "Source_class_E": 4,
+          "Source_class_F": 4
+        },
+        "sensory_grade": {
+          "Source_class_C": 52,
+          "Source_class_D": 22,
+          "Source_class_B_minus": 21,
+          "Source_class_B": 17,
+          "Source_class_C_plus": 13,
+          "Source_class_B_plus": 11,
+          "Source_class_A": 3
+        },
+        "combined_grade": {
+          "Source_class_C": 45,
+          "Source_class_D": 29,
+          "Source_class_B_minus": 21,
+          "Source_class_B": 17,
+          "Source_class_C_plus": 13,
+          "Source_class_B_plus": 11,
+          "Source_class_A": 3
+        },
+        "retest_flag": {
+          "No": 135,
+          "Retest": 4
+        }
+      },
+      "grade_order": null,
+      "grade_order_inferred": false,
+      "unknown_grade_provenance_not_inferred": true,
+      "supplied_ratio_audit": {
+        "formula_for_comparison_only": "ethyl_acetate / ethyl_hexanoate",
+        "absolute_tolerance": 1e-09,
+        "n_not_equal_to_calculated_ratio": 16,
+        "bottle_ids": [
+          "141",
+          "142",
+          "143",
+          "144",
+          "145",
+          "146",
+          "147",
+          "148",
+          "149",
+          "150",
+          "151",
+          "152",
+          "154",
+          "155",
+          "156",
+          "157"
+        ],
+        "max_absolute_difference": 1.4370208105147817,
+        "raw_source_never_corrected": true,
+        "supplied_ratio_excluded_from_predictors": true,
+        "not_a_verified_independent_reference": true
+      },
+      "sensory_combined_disagreements": [
+        {
+          "sample_id": "82",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        },
+        {
+          "sample_id": "83",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        },
+        {
+          "sample_id": "143",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        },
+        {
+          "sample_id": "184",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        },
+        {
+          "sample_id": "185",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        },
+        {
+          "sample_id": "245",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        },
+        {
+          "sample_id": "254",
+          "sensory_grade": "Source_class_C",
+          "combined_grade": "Source_class_D"
+        }
+      ],
+      "metadata_excluded_from_spectral_predictors": [
+        "original_grade",
+        "coefficient_actual",
+        "coefficient_60_5",
+        "weight",
+        "adjusted_weight",
+        "physical_grade",
+        "ethyl_acetate_hexanoate_ratio_supplied",
+        "sensory_grade",
+        "combined_grade",
+        "retest_flag"
+      ]
+    },
+    "source_bottle_counts": {
+      "chemistry": 139,
+      "nir": 161,
+      "raman": 161,
+      "uv": 162
+    },
+    "matched_bottle_ids": [
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "96",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "105",
+      "106",
+      "107",
+      "108",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "125",
+      "126",
+      "127",
+      "128",
+      "130",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "152",
+      "154",
+      "155",
+      "156",
+      "157",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "166",
+      "167",
+      "168",
+      "169",
+      "170",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186",
+      "187",
+      "188",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "200",
+      "201",
+      "202",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "219",
+      "241",
+      "242",
+      "243",
+      "244",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "258",
+      "259"
+    ],
+    "incomplete_source_union_n": 23,
+    "chemistry_without_complete_modalities": [],
+    "validation_tier": "retrospective_internal_only",
+    "no_inferred_dates_or_jar_groups": true,
+    "no_deleted_or_imputed_labels": true,
+    "metadata_used_only_as_explicit_targets_or_descriptions": true,
+    "spectra": {
+      "nir": {
+        "raw_points": 1001,
+        "raw_min": 4000.0,
+        "raw_max": 12000.0,
+        "n_bottles": 161,
+        "retained_points": 751,
+        "numeric_interval": [
+          4000.0,
+          10000.0
+        ],
+        "axis_physical_unit": "pending_author_confirmation",
+        "interpolation": "deterministic within-bottle linear to equal-spacing grid; no labels fitted"
+      },
+      "raman": {
+        "raw_points": 1024,
+        "raw_min": 0.6416,
+        "raw_max": 3002.1052,
+        "n_bottles": 161,
+        "retained_points": 473,
+        "numeric_interval": [
+          200.0,
+          1800.0
+        ],
+        "axis_physical_unit": "pending_author_confirmation",
+        "interpolation": "deterministic within-bottle linear to equal-spacing grid; no labels fitted"
+      },
+      "uv": {
+        "raw_points": 911,
+        "raw_min": 190.0,
+        "raw_max": 1100.0,
+        "n_bottles": 162,
+        "retained_points": 181,
+        "numeric_interval": [
+          220.0,
+          400.0
+        ],
+        "axis_physical_unit": "pending_author_confirmation",
+        "interpolation": "deterministic within-bottle linear to equal-spacing grid; no labels fitted"
+      }
+    },
+    "previous_v6_comparison": {
+      "n_shared_bottles": 139,
+      "old_only_ids": [],
+      "new_only_ids": [],
+      "n_numeric_values_checked": 1668,
+      "difference_counts": {
+        "ethanol": 0,
+        "acetaldehyde": 0,
+        "methanol": 0,
+        "n_propanol": 0,
+        "ethyl_acetate": 0,
+        "isobutanol": 0,
+        "acetal": 0,
+        "n_butanol": 0,
+        "isoamyl_alcohol": 0,
+        "ethyl_butyrate": 0,
+        "ethyl_lactate": 0,
+        "ethyl_hexanoate": 0
+      },
+      "total_differing_numeric_values": 0,
+      "cleaning_did_not_create_new_measurements": true
+    },
+    "source_hashes_verified": true,
+    "aligned_and_raw_equal": true,
+    "fingerprint": "f8ab5d8b034aa9d2b4b1a11c716c85e9f28d4040f5b96256c958d1280ecb06a5",
+    "raw_spectral_interpolation_only": true
+  },
+  "runtime": {
+    "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.5.2",
+    "scipy": "1.13.1"
+  },
+  "new_external_validation": false,
+  "fixed_algorithm_library": {
+    "version": "10.0.0",
+    "catalog_size": 138,
+    "families": [
+      "band_svr",
+      "distilled_nir",
+      "elasticnet",
+      "extra_trees",
+      "gpr",
+      "graph_ridge",
+      "hist_gradient_boosting",
+      "kernel_ridge",
+      "knn",
+      "mlp",
+      "multitask_elasticnet",
+      "pcr",
+      "pls1",
+      "pls2",
+      "random_forest",
+      "reduced_rank",
+      "regressor_chain",
+      "ridge",
+      "svr",
+      "weighted_block_kernel"
+    ],
+    "family_counts": {
+      "band_svr": 2,
+      "distilled_nir": 4,
+      "elasticnet": 4,
+      "extra_trees": 2,
+      "gpr": 4,
+      "graph_ridge": 2,
+      "hist_gradient_boosting": 2,
+      "kernel_ridge": 16,
+      "knn": 4,
+      "mlp": 4,
+      "multitask_elasticnet": 2,
+      "pcr": 2,
+      "pls1": 4,
+      "pls2": 39,
+      "random_forest": 2,
+      "reduced_rank": 2,
+      "regressor_chain": 2,
+      "ridge": 20,
+      "svr": 4,
+      "weighted_block_kernel": 17
+    },
+    "library_fingerprint": "a82f8c0a45d0473bbb73fd40ad9e3074ca83d253fcd033855c0ff6b9d7955f91",
+    "candidate_ids": [
+      "0062b1594c6619260c4b6ad5047f6980bd68037350249cda4e623af8dda0682c",
+      "02b315f92d8582a230ddd514cf47ef43694b9c69c57e66371846ef65a04e82af",
+      "089d5ee6a1e83905568c41abdec72278970c7a0a1d6b08f78c3a1bc423d9215e",
+      "0a46c66a756a88753abbac0761f925d1738e77330ae1d71cb7ba9692f813925f",
+      "0a936a68f73f1d8fe1b56ee04178e748ff1aab4aa5fd77250f175c3f3b631dab",
+      "0e5e83ca2c84a87c75182702f21ed54e2b12a8dfc3f8dbb2766dc917255e4e08",
+      "13f6e919f16d8f29051c06aee2f9354f24979c623fef36ae8e98e5de4c38d532",
+      "174aae54c76d4d4bcdaa35dd2e0992fd1a6748a735fbc3951cf4918d57dbbfa0",
+      "1e5d1a4918717923cc73cda51274dfb08a2ebaa25b0ec848def9ba66e659d2c9",
+      "2116b4b9cfa41c06ec5a73b0915fa9ece43ba1193358dc561625b08959b372cb",
+      "2189acdf5592b585cc779ce96c39425e869651d418a24d957d92f54ce1052ed1",
+      "2213655b1517a66afd5940bae62667e5bb401df096986c762282f4557f604a92",
+      "287e4c27a558ef41831e1643d14c305f44085a566a6a0d07b714d4d3acdc0621",
+      "2a9568846c589e816abdc5eb38086e5a55174c1d777fb0b0280b923447e876d5",
+      "2c37f5b298cb68e291b853df91fc2e6a676bd67469430e3937d13b9e12d8b5eb",
+      "2d437816f550e465a102cfcde04aa64ce97828ac25a2d73076434468067dc123",
+      "2f9d3cca8aa693cb087c2e602355be767bdba02d19b8e8206fd0b8aa58810ff3",
+      "304a6d2b8ddd588560be537d2a848920bd129580937bc68b331721ff6f5c476e",
+      "3579818071d6266113eb7305d8f358ed42b40f640c408bda286e87f22001591d",
+      "37b12bea3f431ba7da8e85fee2e283a36d60d1bed3a6088846e6ad6874f83787",
+      "39617a407660d0a82095214c891e567d1d04c688982436c1f7516c43307eebbb",
+      "3a710a1e709ae075baf041e6bb15df179f9c95a7f56cbfda38d6163049525ea3",
+      "3e8b6077e8aa5e0744ec9ce723a883ae01e82b23c4f8ef5cb875a85aef575b0e",
+      "434ecb7e379abc55c3d599089571af1cd47c0e43f64ceacccdc928cd5ac4cecf",
+      "4410533dbf1911a101b82eb118fbe1e84d318884991e840cadcf8e0194df3d83",
+      "455bd236011b866f346b8293cce9e7df985422a87f2f5989fbcd7d4f18354e18",
+      "4668adac0987790bec6ec42fc968b8e5ae5c36115bfa90f9361fada7375c4d8d",
+      "495b2f6fa69e01802267c3af51f52bda18b9ec07bcad2993c9cef20d4b018c88",
+      "4a58dfcdd91ef4264f4a2fead11499b8610c42ca3ccac8f6be35486e4a31802e",
+      "4c5d4ad0fd3c07d14a9422b33e88edd1f9d00e16fce06aeeaccde063f2b2b005",
+      "4da273b1e3969b866fef618e6dce32f772ba9146a51839551ddb4176169088c0",
+      "4de8041544458097fb38546a817171c3b0c267aaef7a4e0e8cbb06b04c3cfc67",
+      "4ee766dc6a9da3aeed7fcb2cc2d462e1b0b4808fca29aac119e02492b403752d",
+      "4fe408498ad0e26c8ed37a3e0baccb302e8021819887ed8ba9c77c2b2ec0d342",
+      "518d0b53cb6c896a6a8ec8005c41d5698f54a248dba9e0aaa4bddff47f69676b",
+      "520a1827764cb7b491cb932f210c4b6ee6787f6201c2c7173b3f880a6041bc51",
+      "528bb01b603d571b7a24f8df390a00bac851f922500065cbaa1a76caefbff579",
+      "52ee81b95b7e52307c322a3b56fde0d1ad5186d6380b687c2e681590467c42ab",
+      "53df5ac08f142a8cc688ce197a9528f41a009d82d5f82d0096d89655a5534942",
+      "55bde87299f514772f64d14fc3ca2341dcf81bbaf9efdf313913dccbb91d35d4",
+      "56fdb96fc65de5077f942d3020fcb9ab784631814619ebfc3785acfb49f5562f",
+      "57b5dd62360e4a17865087a08b336d95d5224f7c4015f4708949b4002504d541",
+      "5a4089c01e94f99fabbcc00c5be427659a2e38497ccb2da4c2217d8b4c6b1e85",
+      "5a7bc41951208ab72567c5360f931e6f7711313d18890543ad0a6d654e674e87",
+      "5aeefc6d173a94bf070d75c02ea596b053023ea645ad72c10f029d2d3b19f24b",
+      "5dd3e5444e5501f867392df333e14e1bd27c8e9e39b59ae4d1aa67489d95097a",
+      "612eaabe161fba96ecf627d3124a37968fe669a8c8346800214793b53a76b874",
+      "62b169fb8fc73f9ca0e35d8e1535e8e2eec6b7374e67f74c5390dc54ff154cad",
+      "66903f36821d3f03131db93930390f6673c031819f28286323d5998297ff2028",
+      "6819b5048d29589806046c70ab7d99a8e43f7e4729f3407ac5ddf7245ec3261d",
+      "6a261fef03e540725b414356794785301ac30cc31fd8a66ea104ed1930d73f7e",
+      "6c1fe9745b39fb76fa7b471fc08344a0451da2a15b8e47482eee7ef069cf2d6a",
+      "6caf37a4763f61b667b13f5b7513a250a73e1b5de57067e8940804a09403e94a",
+      "6e10e8f33157abbcc48c0683eef7e08b760f92386817b8a805c0caef85e8e357",
+      "7043e1892b5d0b60666fe51f33d24b60bf9332adc5b4c682dd5d7a6aacd669dc",
+      "70800c121de9f74a934705aaff988d7419f9cbf8a6948956ee25c6230df68360",
+      "70d827552bc4ec844935314def3c3797dd82be56025fb69d4c6f16d39daee14b",
+      "71625c94ca7a44cc6e3f8da447b766ccf7ecf11d5255b7637339e92f684bd428",
+      "73b8b846445c042bf958dfad7c03f205c346aa578fb78b5b3a1a3adb310982be",
+      "73e50cc8a1dfd9b19f6970e9aec37b9b3f27e85424644db8e83019f4f6271b90",
+      "75054f618157efbf6e6b62119cd3cd1970e2d0ab5a83ca68227d7d2bf9a866aa",
+      "77180785a7a922b4b7b9d1640ec8205e2f82946ee4dae535199dace23537e8d4",
+      "7b3de70c92b847d0441355fd025031fb1c03cd56b446d0e4b5b913084c4635a1",
+      "7de3a643b768c15b2e94605e709a9988944809baa745822645ea4207deeff008",
+      "7f738564cfc451d4f94f4a4f6001c34b97d052c4cb5be45ca4433168e053a4bb",
+      "8102d51abc79a66b45c28c4273d0f6b2d9b1e6b5501c9395115022e9ca1922f4",
+      "8174da31d43b97ed09c1d1217c0c9258a0ad1db842fd37953a7d157ae38bf8ff",
+      "81cc1ae5692bd5633f656fc02701a09579e90c2e62918e5816ba353ab834956d",
+      "83f8de6335557da002e310400d888d97cb3dbb36e6b431f5e7a8a2f59b2d0137",
+      "84af395ddff598957bf07db16a877bc79a4af3abdb9c23095310ed5ad4fa285b",
+      "84c7d281cd94c2463cdc0ab3ec35719a7f673888618ba82db48f4b8ed5c310b4",
+      "896c0131420fe39b81d49cdef5177eb5d174b95eaf7dc348906458f57bd14294",
+      "8bb0ea486cb7587fd882908dbd614914f558bdd29f8fc7ff688be48f25175c43",
+      "93d8f59b7032f2f111fb75d59c1a15987946f4fa411ba7320c6b42bb2c031fde",
+      "94481a2b9706d01598cd0852b23c5a7d6eea9a3a24a23ded603c370fbc7d99d9",
+      "9714d44d8ec3b83c980e86dc63e8601e794de9d73e4ec128b3a3bef1e91fb4f6",
+      "9729a72451d13ad42e9008a19b94b6e9bd7a562d7ee5862f81f1efda116448d8",
+      "99117fe4bc58443c65f563b29f4df3a964ea4e9930e12f98ac65a5da35eedc51",
+      "9cbd14b40cace7af1f7fd2ced32c0b420fd22896c3a78d2ebe975e5f9c9b47c6",
+      "9ebf806e02b63cf8943bd07ec7f23741e884019f4d769e0df4928f28201e2c35",
+      "a006176999df0ea5b6d07a2b5b3f75e9f7e65628d1fb98b5aa085c26d145c372",
+      "a17ef4631902900cde19f2e9ee9f81423c9345de71a6db480fe49dac1f149a49",
+      "a19badaf8d7e33d091f1dc9f45d0954e2710d16521a2a01fa37d4f6d6c5d5e68",
+      "a210ceed3b4e2f1f61eb3da5ff454259852630c0179de00c88221928b5f10134",
+      "a2ec2edfbb81fe23786f9d315a944451f6a98cfe453cf64b17be6cab3fae9f7d",
+      "a555a620539aee6480bc86865bac5ff4e73dca75590267826522f15636e2f920",
+      "a7784d238dfc09c1304410d0dbb4186df80353c821df89d6de90c9c2f2e7f987",
+      "ab1469cb99722164bd4effa82822d2377a37f9d936f41721b40d0e7f3e0ae7bb",
+      "ae9669eaf1f40ae1793f3c697f59a044d942e5e4a0883b26f8330bcf714db541",
+      "b14d370f56cd9f07195db30882478c8915f89491b5a2f05eab90722cbcf8efd9",
+      "b4194ba6c018c431ce3ad495ea597d91a16f2d8c657fcebbbef369d0b952ddeb",
+      "b6d7910a42219aa308e0e49cbe4a2cf3220bf57c5f73c240edf70e87f818b955",
+      "b892611c3da5ceda362e0d5b68ab58fc67de60cee3c2e7e127d9cb17f7ace62b",
+      "ba0a35f37a7dbb04152c53c9f4e50d62a1831b3812d104e53fb06abf6f57f348",
+      "bdde2ae38e3bf1938b66c1b66d503a3cd353993618739797e360ceba4d05c5de",
+      "c094caa65d012e28be9c210b5f2ffad4d7ba7c80993342b8c360382a8ee15033",
+      "c56e8804a6c5439766b734b45019ba34144982897f0b853d8d68fe889724b1a0",
+      "c7fa72861d65c58b246186f8ba96eb8636ca765a3f76261a0392edd815b8cc43",
+      "cbb73a29c8b3775805207a3c6292561f72696f769c84ccf24836e9dd0dbfdb0c",
+      "cf6cbb4580d353992cddca9742e5f6c1f227833b4f74da5064fbe2d93595dfd7",
+      "d01c126c55089bccc6b56e6723860ad951eb2f816d776720615c3dc91f6d5ece",
+      "d0267b8101dca73326eebcde1baaae5b93cbf802fe33ed7bd50937175d6f5e44",
+      "d06c3bc779fad11683403394f277505da8cb7ceb4452c6e578a18679da9da1df",
+      "d0c14b75ccaf70a7eb2d0aa6995f7afe20f156f0869fcc25b4e8b587150391c1",
+      "d463713f81bd695a28c3aa4126df5f5cb7aa66a5419e308fa78b394472388803",
+      "d4d0e06100e62f1c6b04dee6e5511483586cdad53f9d667510a341fc59371ce7",
+      "d6c134984cb3586335d23c147c293380627de4e98ccb7ac9a9f349f0ab5b129e",
+      "d7e281f9fe89f9d2744b7351995ef2bc31a11f793f2fad3edf798fb41c2e5c49",
+      "d858ae7675922545264af9d152c8b9a770fd96447a3c8a5ab07d5ba569a05c98",
+      "d86c317b8fa5228f9b44e5aa9b29f8106c106adf453bf5b7c6c1fecaa603e103",
+      "daf05e73be697b4a7f7bf5d5bbfef1a12fc794ee1dc6fcb7a788eacd2ff9b5a7",
+      "dbe5c5c24808e01311549029231c3141096e8ddd3399aca80d9f26165f67e819",
+      "dd9bc0edebf0d751ef35a362a11e47000bfae00e27a2f94df191249e5502724a",
+      "de4eb49f34b319e9530743193939ed2ab84f4374c43536f480eb35aeae940a71",
+      "de50389a2c3dad58b81b19fb3bb40066cf653830484cf8f9ec6ef765d1ea5c5e",
+      "def7c7ee2e477f9cb85b82b84cb24b9aed43a358b2a4424812714a0f389e62fc",
+      "e36ed2a21fe73427cf02a7112d1f43ee54e79aad0817cfbb72a0a42ee6f54b09",
+      "e4d500c012c2b91ce1f92b6ebb592e5b3b3b18f4b07c32e04048248c2c30e20f",
+      "e5bbe84acd5867129df15223fd94b0d8d197dec7f3852e4f0ba00ac2910f8f57",
+      "e5e76cc0c4eaf637e7e729bfc6c9cd9393ff33e5e43618454783a62e7186aa6a",
+      "e6750feb7485a2d0e8405f0f0796c2d2b9e46254039d9ffeb20cb5407cc68c27",
+      "e6b26b2af36d005c133b4743a6e91a34fbb2a2386db99292bb4f69922f285299",
+      "e74001e30afded5412667fa283950b10497c30ab673b3b208210b31973e7a62e",
+      "e89358b4a50b3564f4f96ae45bb80cb736d186ff99f7983133636e5b8956b052",
+      "e9051efae9ebccc9842a40b60aebc45004aef04a1091e537d0abaf913d3a19c5",
+      "ec13b63be4790eb86e151530ef99e7975cd0d7c01856284d79e3b9c6eadad4ae",
+      "ecc8e7c5c59789e998af3a9db810714fcf1a6dec9b9e9401abc8784916d6451a",
+      "ed3220fea2a6f097e03cf411039f07928c2cc36afca65e0d8a6a82be5bcf13d5",
+      "ef1c572abba43b459ffe4873702e4c8da0ed412002faf95e1dd30ecad28d87bf",
+      "f1214cf075ea8c73a28e9a06b819e72ce10508d6a8deba07147e88a4e1268883",
+      "f2453223149e78914941a330e5f0937778f961fe9f7e464024124a5fb62ab085",
+      "f41997775ac36be3bd9dbb66923f4f05d9b604a58418778c53a4d486e755a6c4",
+      "f5f6294ea894d55a98cc8266d87bb14dc57b94c3e803a7b6dc444faf4cead415",
+      "f6f54185561dfe204822630b1ca09344461cb81f3018a9fc1ec0273c1f95d5d6",
+      "fa0eec3987a88e89d343b6f332513f4463e66231c3489d8301db9fa20a700c45",
+      "fb7b23f5a27f75605536041f93988e15161ec4eb0aff670f4f2ecb3d285e89e6",
+      "ff08f6d2aba2807ba8a7adfa7bf811b8acc1b4fdef3d593b846f76dbe65e6a65",
+      "ffa337b4056b5fb8a187c197be6e42d6c5291a04610117f13ed0e5741b59347e"
+    ],
+    "reference_ids": [
+      "13f6e919f16d8f29051c06aee2f9354f24979c623fef36ae8e98e5de4c38d532",
+      "3e8b6077e8aa5e0744ec9ce723a883ae01e82b23c4f8ef5cb875a85aef575b0e",
+      "9714d44d8ec3b83c980e86dc63e8601e794de9d73e4ec128b3a3bef1e91fb4f6",
+      "e36ed2a21fe73427cf02a7112d1f43ee54e79aad0817cfbb72a0a42ee6f54b09"
+    ],
+    "provenance": {
+      "0062b1594c6619260c4b6ad5047f6980bd68037350249cda4e623af8dda0682c": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "02b315f92d8582a230ddd514cf47ef43694b9c69c57e66371846ef65a04e82af": [
+        "exact_V9_specification"
+      ],
+      "089d5ee6a1e83905568c41abdec72278970c7a0a1d6b08f78c3a1bc423d9215e": [
+        "history_verified_NIR_UV_eight_PC_ridge"
+      ],
+      "0a46c66a756a88753abbac0761f925d1738e77330ae1d71cb7ba9692f813925f": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "0a936a68f73f1d8fe1b56ee04178e748ff1aab4aa5fd77250f175c3f3b631dab": [
+        "V4_missing_family_common_protocol"
+      ],
+      "0e5e83ca2c84a87c75182702f21ed54e2b12a8dfc3f8dbb2766dc917255e4e08": [
+        "V4_missing_family_common_protocol"
+      ],
+      "13f6e919f16d8f29051c06aee2f9354f24979c623fef36ae8e98e5de4c38d532": [
+        "exact_V9_specification"
+      ],
+      "174aae54c76d4d4bcdaa35dd2e0992fd1a6748a735fbc3951cf4918d57dbbfa0": [
+        "exact_V9_specification"
+      ],
+      "1e5d1a4918717923cc73cda51274dfb08a2ebaa25b0ec848def9ba66e659d2c9": [
+        "exact_V9_specification"
+      ],
+      "2116b4b9cfa41c06ec5a73b0915fa9ece43ba1193358dc561625b08959b372cb": [
+        "exact_V9_specification"
+      ],
+      "2189acdf5592b585cc779ce96c39425e869651d418a24d957d92f54ce1052ed1": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "2213655b1517a66afd5940bae62667e5bb401df096986c762282f4557f604a92": [
+        "exact_V9_specification"
+      ],
+      "287e4c27a558ef41831e1643d14c305f44085a566a6a0d07b714d4d3acdc0621": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "2a9568846c589e816abdc5eb38086e5a55174c1d777fb0b0280b923447e876d5": [
+        "V5_V6_privileged_view_teacher_OOF_NIR_student_concept"
+      ],
+      "2c37f5b298cb68e291b853df91fc2e6a676bd67469430e3937d13b9e12d8b5eb": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "2d437816f550e465a102cfcde04aa64ce97828ac25a2d73076434468067dc123": [
+        "V4_missing_family_common_protocol"
+      ],
+      "2f9d3cca8aa693cb087c2e602355be767bdba02d19b8e8206fd0b8aa58810ff3": [
+        "exact_V9_specification"
+      ],
+      "304a6d2b8ddd588560be537d2a848920bd129580937bc68b331721ff6f5c476e": [
+        "exact_V9_specification"
+      ],
+      "3579818071d6266113eb7305d8f358ed42b40f640c408bda286e87f22001591d": [
+        "exact_V9_specification"
+      ],
+      "37b12bea3f431ba7da8e85fee2e283a36d60d1bed3a6088846e6ad6874f83787": [
+        "exact_V9_specification"
+      ],
+      "39617a407660d0a82095214c891e567d1d04c688982436c1f7516c43307eebbb": [
+        "V2_V3_prespecified_dominant_block_kernel_concept"
+      ],
+      "3a710a1e709ae075baf041e6bb15df179f9c95a7f56cbfda38d6163049525ea3": [
+        "V4_missing_family_common_protocol"
+      ],
+      "3e8b6077e8aa5e0744ec9ce723a883ae01e82b23c4f8ef5cb875a85aef575b0e": [
+        "exact_V9_specification"
+      ],
+      "434ecb7e379abc55c3d599089571af1cd47c0e43f64ceacccdc928cd5ac4cecf": [
+        "V4_missing_family_common_protocol"
+      ],
+      "4410533dbf1911a101b82eb118fbe1e84d318884991e840cadcf8e0194df3d83": [
+        "exact_V9_specification"
+      ],
+      "455bd236011b866f346b8293cce9e7df985422a87f2f5989fbcd7d4f18354e18": [
+        "exact_V9_specification"
+      ],
+      "4668adac0987790bec6ec42fc968b8e5ae5c36115bfa90f9361fada7375c4d8d": [
+        "V7_existing_family_common_protocol"
+      ],
+      "495b2f6fa69e01802267c3af51f52bda18b9ec07bcad2993c9cef20d4b018c88": [
+        "V3_V8_positive_target_log_transform_concept"
+      ],
+      "4a58dfcdd91ef4264f4a2fead11499b8610c42ca3ccac8f6be35486e4a31802e": [
+        "V7_existing_family_common_protocol"
+      ],
+      "4c5d4ad0fd3c07d14a9422b33e88edd1f9d00e16fce06aeeaccde063f2b2b005": [
+        "exact_V9_specification"
+      ],
+      "4da273b1e3969b866fef618e6dce32f772ba9146a51839551ddb4176169088c0": [
+        "V7_existing_family_common_protocol"
+      ],
+      "4de8041544458097fb38546a817171c3b0c267aaef7a4e0e8cbb06b04c3cfc67": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "4ee766dc6a9da3aeed7fcb2cc2d462e1b0b4808fca29aac119e02492b403752d": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "4fe408498ad0e26c8ed37a3e0baccb302e8021819887ed8ba9c77c2b2ec0d342": [
+        "exact_V9_specification"
+      ],
+      "518d0b53cb6c896a6a8ec8005c41d5698f54a248dba9e0aaa4bddff47f69676b": [
+        "exact_V9_specification"
+      ],
+      "520a1827764cb7b491cb932f210c4b6ee6787f6201c2c7173b3f880a6041bc51": [
+        "exact_V9_specification"
+      ],
+      "528bb01b603d571b7a24f8df390a00bac851f922500065cbaa1a76caefbff579": [
+        "historical_PLS_band_selection_SVR_concept_not_exact_old_selection"
+      ],
+      "52ee81b95b7e52307c322a3b56fde0d1ad5186d6380b687c2e681590467c42ab": [
+        "exact_V9_specification"
+      ],
+      "53df5ac08f142a8cc688ce197a9528f41a009d82d5f82d0096d89655a5534942": [
+        "V4_missing_family_common_protocol"
+      ],
+      "55bde87299f514772f64d14fc3ca2341dcf81bbaf9efdf313913dccbb91d35d4": [
+        "exact_V9_specification"
+      ],
+      "56fdb96fc65de5077f942d3020fcb9ab784631814619ebfc3785acfb49f5562f": [
+        "exact_V9_specification"
+      ],
+      "57b5dd62360e4a17865087a08b336d95d5224f7c4015f4708949b4002504d541": [
+        "V4_missing_family_common_protocol"
+      ],
+      "5a4089c01e94f99fabbcc00c5be427659a2e38497ccb2da4c2217d8b4c6b1e85": [
+        "exact_V9_specification"
+      ],
+      "5a7bc41951208ab72567c5360f931e6f7711313d18890543ad0a6d654e674e87": [
+        "history_verified_NIR_UV_eight_PC_ridge"
+      ],
+      "5aeefc6d173a94bf070d75c02ea596b053023ea645ad72c10f029d2d3b19f24b": [
+        "V4_missing_family_common_protocol"
+      ],
+      "5dd3e5444e5501f867392df333e14e1bd27c8e9e39b59ae4d1aa67489d95097a": [
+        "V4_missing_family_common_protocol"
+      ],
+      "612eaabe161fba96ecf627d3124a37968fe669a8c8346800214793b53a76b874": [
+        "exact_V9_specification"
+      ],
+      "62b169fb8fc73f9ca0e35d8e1535e8e2eec6b7374e67f74c5390dc54ff154cad": [
+        "V2_V3_prespecified_dominant_block_kernel_concept"
+      ],
+      "66903f36821d3f03131db93930390f6673c031819f28286323d5998297ff2028": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "6819b5048d29589806046c70ab7d99a8e43f7e4729f3407ac5ddf7245ec3261d": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "6a261fef03e540725b414356794785301ac30cc31fd8a66ea104ed1930d73f7e": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "6c1fe9745b39fb76fa7b471fc08344a0451da2a15b8e47482eee7ef069cf2d6a": [
+        "exact_V9_specification"
+      ],
+      "6caf37a4763f61b667b13f5b7513a250a73e1b5de57067e8940804a09403e94a": [
+        "V7_existing_family_common_protocol"
+      ],
+      "6e10e8f33157abbcc48c0683eef7e08b760f92386817b8a805c0caef85e8e357": [
+        "V3_V8_positive_target_log_transform_concept"
+      ],
+      "7043e1892b5d0b60666fe51f33d24b60bf9332adc5b4c682dd5d7a6aacd669dc": [
+        "exact_V9_specification"
+      ],
+      "70800c121de9f74a934705aaff988d7419f9cbf8a6948956ee25c6230df68360": [
+        "exact_V9_specification"
+      ],
+      "70d827552bc4ec844935314def3c3797dd82be56025fb69d4c6f16d39daee14b": [
+        "V4_missing_family_common_protocol"
+      ],
+      "71625c94ca7a44cc6e3f8da447b766ccf7ecf11d5255b7637339e92f684bd428": [
+        "exact_V9_specification"
+      ],
+      "73b8b846445c042bf958dfad7c03f205c346aa578fb78b5b3a1a3adb310982be": [
+        "history_verified_NIR_UV_eight_PC_ridge"
+      ],
+      "73e50cc8a1dfd9b19f6970e9aec37b9b3f27e85424644db8e83019f4f6271b90": [
+        "V7_existing_family_common_protocol"
+      ],
+      "75054f618157efbf6e6b62119cd3cd1970e2d0ab5a83ca68227d7d2bf9a866aa": [
+        "V3_V8_positive_target_log_transform_concept"
+      ],
+      "77180785a7a922b4b7b9d1640ec8205e2f82946ee4dae535199dace23537e8d4": [
+        "V7_existing_family_common_protocol"
+      ],
+      "7b3de70c92b847d0441355fd025031fb1c03cd56b446d0e4b5b913084c4635a1": [
+        "V7_existing_family_common_protocol"
+      ],
+      "7de3a643b768c15b2e94605e709a9988944809baa745822645ea4207deeff008": [
+        "V4_missing_family_common_protocol"
+      ],
+      "7f738564cfc451d4f94f4a4f6001c34b97d052c4cb5be45ca4433168e053a4bb": [
+        "V2_V3_prespecified_dominant_block_kernel_concept"
+      ],
+      "8102d51abc79a66b45c28c4273d0f6b2d9b1e6b5501c9395115022e9ca1922f4": [
+        "exact_V9_specification"
+      ],
+      "8174da31d43b97ed09c1d1217c0c9258a0ad1db842fd37953a7d157ae38bf8ff": [
+        "V3_V8_positive_target_log_transform_concept"
+      ],
+      "81cc1ae5692bd5633f656fc02701a09579e90c2e62918e5816ba353ab834956d": [
+        "exact_V9_specification"
+      ],
+      "83f8de6335557da002e310400d888d97cb3dbb36e6b431f5e7a8a2f59b2d0137": [
+        "exact_V9_specification"
+      ],
+      "84af395ddff598957bf07db16a877bc79a4af3abdb9c23095310ed5ad4fa285b": [
+        "V7_existing_family_common_protocol"
+      ],
+      "84c7d281cd94c2463cdc0ab3ec35719a7f673888618ba82db48f4b8ed5c310b4": [
+        "exact_V9_specification"
+      ],
+      "896c0131420fe39b81d49cdef5177eb5d174b95eaf7dc348906458f57bd14294": [
+        "exact_V9_specification"
+      ],
+      "8bb0ea486cb7587fd882908dbd614914f558bdd29f8fc7ff688be48f25175c43": [
+        "exact_V9_specification"
+      ],
+      "93d8f59b7032f2f111fb75d59c1a15987946f4fa411ba7320c6b42bb2c031fde": [
+        "exact_V9_specification"
+      ],
+      "94481a2b9706d01598cd0852b23c5a7d6eea9a3a24a23ded603c370fbc7d99d9": [
+        "exact_V9_specification"
+      ],
+      "9714d44d8ec3b83c980e86dc63e8601e794de9d73e4ec128b3a3bef1e91fb4f6": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "9729a72451d13ad42e9008a19b94b6e9bd7a562d7ee5862f81f1efda116448d8": [
+        "exact_V9_specification"
+      ],
+      "99117fe4bc58443c65f563b29f4df3a964ea4e9930e12f98ac65a5da35eedc51": [
+        "V4_missing_family_common_protocol"
+      ],
+      "9cbd14b40cace7af1f7fd2ced32c0b420fd22896c3a78d2ebe975e5f9c9b47c6": [
+        "exact_V9_specification"
+      ],
+      "9ebf806e02b63cf8943bd07ec7f23741e884019f4d769e0df4928f28201e2c35": [
+        "exact_V9_specification"
+      ],
+      "a006176999df0ea5b6d07a2b5b3f75e9f7e65628d1fb98b5aa085c26d145c372": [
+        "exact_V9_specification"
+      ],
+      "a17ef4631902900cde19f2e9ee9f81423c9345de71a6db480fe49dac1f149a49": [
+        "exact_V9_specification"
+      ],
+      "a19badaf8d7e33d091f1dc9f45d0954e2710d16521a2a01fa37d4f6d6c5d5e68": [
+        "V3_V8_positive_target_log_transform_concept"
+      ],
+      "a210ceed3b4e2f1f61eb3da5ff454259852630c0179de00c88221928b5f10134": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "a2ec2edfbb81fe23786f9d315a944451f6a98cfe453cf64b17be6cab3fae9f7d": [
+        "V5_V6_privileged_view_teacher_OOF_NIR_student_concept"
+      ],
+      "a555a620539aee6480bc86865bac5ff4e73dca75590267826522f15636e2f920": [
+        "exact_V9_specification"
+      ],
+      "a7784d238dfc09c1304410d0dbb4186df80353c821df89d6de90c9c2f2e7f987": [
+        "exact_V9_specification"
+      ],
+      "ab1469cb99722164bd4effa82822d2377a37f9d936f41721b40d0e7f3e0ae7bb": [
+        "history_verified_pair_SVR_concept_current_UV_policy"
+      ],
+      "ae9669eaf1f40ae1793f3c697f59a044d942e5e4a0883b26f8330bcf714db541": [
+        "exact_V9_specification"
+      ],
+      "b14d370f56cd9f07195db30882478c8915f89491b5a2f05eab90722cbcf8efd9": [
+        "history_verified_pair_SVR_concept_current_UV_policy"
+      ],
+      "b4194ba6c018c431ce3ad495ea597d91a16f2d8c657fcebbbef369d0b952ddeb": [
+        "exact_V9_specification"
+      ],
+      "b6d7910a42219aa308e0e49cbe4a2cf3220bf57c5f73c240edf70e87f818b955": [
+        "exact_V9_specification"
+      ],
+      "b892611c3da5ceda362e0d5b68ab58fc67de60cee3c2e7e127d9cb17f7ace62b": [
+        "exact_V9_specification"
+      ],
+      "ba0a35f37a7dbb04152c53c9f4e50d62a1831b3812d104e53fb06abf6f57f348": [
+        "V7_existing_family_common_protocol"
+      ],
+      "bdde2ae38e3bf1938b66c1b66d503a3cd353993618739797e360ceba4d05c5de": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "c094caa65d012e28be9c210b5f2ffad4d7ba7c80993342b8c360382a8ee15033": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "c56e8804a6c5439766b734b45019ba34144982897f0b853d8d68fe889724b1a0": [
+        "V7_existing_family_common_protocol"
+      ],
+      "c7fa72861d65c58b246186f8ba96eb8636ca765a3f76261a0392edd815b8cc43": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "cbb73a29c8b3775805207a3c6292561f72696f769c84ccf24836e9dd0dbfdb0c": [
+        "exact_V9_specification"
+      ],
+      "cf6cbb4580d353992cddca9742e5f6c1f227833b4f74da5064fbe2d93595dfd7": [
+        "exact_V9_specification"
+      ],
+      "d01c126c55089bccc6b56e6723860ad951eb2f816d776720615c3dc91f6d5ece": [
+        "V7_existing_family_common_protocol"
+      ],
+      "d0267b8101dca73326eebcde1baaae5b93cbf802fe33ed7bd50937175d6f5e44": [
+        "V4_missing_family_common_protocol"
+      ],
+      "d06c3bc779fad11683403394f277505da8cb7ceb4452c6e578a18679da9da1df": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "d0c14b75ccaf70a7eb2d0aa6995f7afe20f156f0869fcc25b4e8b587150391c1": [
+        "exact_V9_specification"
+      ],
+      "d463713f81bd695a28c3aa4126df5f5cb7aa66a5419e308fa78b394472388803": [
+        "exact_V9_specification"
+      ],
+      "d4d0e06100e62f1c6b04dee6e5511483586cdad53f9d667510a341fc59371ce7": [
+        "V7_existing_family_common_protocol"
+      ],
+      "d6c134984cb3586335d23c147c293380627de4e98ccb7ac9a9f349f0ab5b129e": [
+        "exact_V9_specification"
+      ],
+      "d7e281f9fe89f9d2744b7351995ef2bc31a11f793f2fad3edf798fb41c2e5c49": [
+        "V7_existing_family_common_protocol"
+      ],
+      "d858ae7675922545264af9d152c8b9a770fd96447a3c8a5ab07d5ba569a05c98": [
+        "V5_V6_privileged_view_teacher_OOF_NIR_student_concept"
+      ],
+      "d86c317b8fa5228f9b44e5aa9b29f8106c106adf453bf5b7c6c1fecaa603e103": [
+        "exact_V9_specification"
+      ],
+      "daf05e73be697b4a7f7bf5d5bbfef1a12fc794ee1dc6fcb7a788eacd2ff9b5a7": [
+        "V7_existing_family_common_protocol"
+      ],
+      "dbe5c5c24808e01311549029231c3141096e8ddd3399aca80d9f26165f67e819": [
+        "exact_V9_specification"
+      ],
+      "dd9bc0edebf0d751ef35a362a11e47000bfae00e27a2f94df191249e5502724a": [
+        "exact_V9_specification"
+      ],
+      "de4eb49f34b319e9530743193939ed2ab84f4374c43536f480eb35aeae940a71": [
+        "exact_V9_specification"
+      ],
+      "de50389a2c3dad58b81b19fb3bb40066cf653830484cf8f9ec6ef765d1ea5c5e": [
+        "V5_V6_privileged_view_teacher_OOF_NIR_student_concept"
+      ],
+      "def7c7ee2e477f9cb85b82b84cb24b9aed43a358b2a4424812714a0f389e62fc": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "e36ed2a21fe73427cf02a7112d1f43ee54e79aad0817cfbb72a0a42ee6f54b09": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ],
+      "e4d500c012c2b91ce1f92b6ebb592e5b3b3b18f4b07c32e04048248c2c30e20f": [
+        "V4_missing_family_common_protocol"
+      ],
+      "e5bbe84acd5867129df15223fd94b0d8d197dec7f3852e4f0ba00ac2910f8f57": [
+        "V7_existing_family_common_protocol"
+      ],
+      "e5e76cc0c4eaf637e7e729bfc6c9cd9393ff33e5e43618454783a62e7186aa6a": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "e6750feb7485a2d0e8405f0f0796c2d2b9e46254039d9ffeb20cb5407cc68c27": [
+        "exact_V9_specification"
+      ],
+      "e6b26b2af36d005c133b4743a6e91a34fbb2a2386db99292bb4f69922f285299": [
+        "historical_PLS_band_selection_SVR_concept_not_exact_old_selection"
+      ],
+      "e74001e30afded5412667fa283950b10497c30ab673b3b208210b31973e7a62e": [
+        "exact_V9_specification"
+      ],
+      "e89358b4a50b3564f4f96ae45bb80cb736d186ff99f7983133636e5b8956b052": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "e9051efae9ebccc9842a40b60aebc45004aef04a1091e537d0abaf913d3a19c5": [
+        "V4_missing_family_common_protocol"
+      ],
+      "ec13b63be4790eb86e151530ef99e7975cd0d7c01856284d79e3b9c6eadad4ae": [
+        "V4_missing_family_common_protocol"
+      ],
+      "ecc8e7c5c59789e998af3a9db810714fcf1a6dec9b9e9401abc8784916d6451a": [
+        "V3_V8_positive_target_log_transform_concept"
+      ],
+      "ed3220fea2a6f097e03cf411039f07928c2cc36afca65e0d8a6a82be5bcf13d5": [
+        "V7_existing_family_common_protocol"
+      ],
+      "ef1c572abba43b459ffe4873702e4c8da0ed412002faf95e1dd30ecad28d87bf": [
+        "V7_existing_family_common_protocol"
+      ],
+      "f1214cf075ea8c73a28e9a06b819e72ce10508d6a8deba07147e88a4e1268883": [
+        "exact_V9_specification"
+      ],
+      "f2453223149e78914941a330e5f0937778f961fe9f7e464024124a5fb62ab085": [
+        "exact_V9_specification"
+      ],
+      "f41997775ac36be3bd9dbb66923f4f05d9b604a58418778c53a4d486e755a6c4": [
+        "history_verified_NIR_UV_eight_PC_ridge"
+      ],
+      "f5f6294ea894d55a98cc8266d87bb14dc57b94c3e803a7b6dc444faf4cead415": [
+        "V7_existing_family_common_protocol"
+      ],
+      "f6f54185561dfe204822630b1ca09344461cb81f3018a9fc1ec0273c1f95d5d6": [
+        "exact_V9_specification"
+      ],
+      "fa0eec3987a88e89d343b6f332513f4463e66231c3489d8301db9fa20a700c45": [
+        "V2_V3_additive_kernel_concept_common_protocol"
+      ],
+      "fb7b23f5a27f75605536041f93988e15161ec4eb0aff670f4f2ecb3d285e89e6": [
+        "exact_V9_specification"
+      ],
+      "ff08f6d2aba2807ba8a7adfa7bf811b8acc1b4fdef3d593b846f76dbe65e6a65": [
+        "exact_V9_specification"
+      ],
+      "ffa337b4056b5fb8a187c197be6e42d6c5291a04610117f13ed0e5741b59347e": [
+        "V7_existing_family_common_protocol",
+        "exact_V9_specification"
+      ]
+    },
+    "historical_specs_explicitly_added": 0,
+    "outer_targets_used_to_build_library": false,
+    "calibration_targets_used_to_build_library": false,
+    "historical_V1_V9_heldout_results_informed_library_design": true,
+    "label_access_field_scope": "False above means this builder API receives no current outer-test/calibration array. Historical design was informed by already viewed outcomes from the same bottles; it is not independent confirmation.",
+    "library_changes_when_optional_package_installed": false,
+    "optional_boosting_in_default_library": false,
+    "measured_ethanol_in_spectral_candidate_pool": false,
+    "old_V3_preprocessing_exactly_reproduced": false,
+    "interpretation": "Algorithm concepts re-evaluated under one common retrospective protocol; not stitched old test predictions",
+    "fit_budget_per_bundle": {
+      "inner_fits": 414,
+      "full_refits_upper_bound": 138,
+      "count_unit": "candidate fit calls; multioutput and teacher internal fits add cost",
+      "distilled_candidates": 4,
+      "teacher_subfits_per_distilled_candidate_call": "3, or 2 when fitting n < 12"
+    }
+  },
+  "required_modes": [
+    "ablation",
+    "interval",
+    "boundaries",
+    "measured_abv"
+  ],
+  "optional_modes": [
+    "ethanol"
+  ]
+}
