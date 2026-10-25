@@ -1,0 +1,25 @@
+{
+  "version": "english-localized-10.0.0",
+  "experimental_unit": "bottle_id",
+  "chemistry_source": "chemistry.xlsx",
+  "raw_workbooks_preserved_byte_for_byte": false,
+  "workbook_numeric_values_preserved_exactly": true,
+  "localization": "English filenames, text cells, sheet labels and descriptive categories; original source hashes retained in provenance.",
+  "independent_bottles": 139,
+  "n_chemistry_all": 139,
+  "no_jar_group_inferred": true,
+  "validation_tier": "retrospective_internal_only",
+  "author_confirmed_name_correction": "Ethyl hexanoate header spelling corrected; concentration values unchanged",
+  "files": {
+    "data/raw/chemistry.xlsx": "b0f0e989282906252dc8fda1ee8ab56ffccab57baf1178527c424c1558775b38",
+    "data/raw/nir.xlsx": "c788070caf62b7014d790b0d8a3b99abc148e995582016671cc69e983f1d1490",
+    "data/raw/raman.xlsx": "57133fc619ae8f459cc6905df1b720ef6dbdf987bc0590f3c1ade978bdd10ab6",
+    "data/raw/uv.xlsx": "d3878016f00849c33dee9c9883b92b3f2db128570975078621dc2b8c2d5b0bd4",
+    "data/aligned/audit.json": "3d117ddd053ce7a4d5d83afe53255e708d92285f88fa303023087350a10ddd65",
+    "data/aligned/chemistry_all.csv": "0237e872d5282ea0cef857367ddddcf0792d2cbf164ab4249d28f37f7425e1b6",
+    "data/aligned/missing_modalities.csv": "691fa6253bd5801a4d2cc4d0aa38e5cbaf2ba054a16785c135c29f9db10938e7",
+    "data/aligned/samples.csv": "0237e872d5282ea0cef857367ddddcf0792d2cbf164ab4249d28f37f7425e1b6",
+    "data/aligned/spectra.npz": "a4186244aa9e10b127d80d9944784f9a05306cd61685cc46b508b050d5686c57",
+    "data/aligned/supplied_ratio_audit.csv": "0fcf4dada29669e650a3dc9bd1ea0c2f1ff07c3e2f75172b49512ba6582aeb64"
+  }
+}
