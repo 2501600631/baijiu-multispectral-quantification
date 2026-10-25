@@ -1,0 +1,11 @@
+strategy,macro_nrmse
+Expanded-library unanchored ensemble,0.3720008160900065
+Original-library unanchored reference,0.3734379163248205
+Spectral strategy selector,0.37751900874929
+Expanded-library anchored ensemble,0.3828781235954961
+Conservative analyte selection,0.3892100738582533
+Minimum-error analyte selection,0.39296361430114035
+PLS2 reference,0.3982801780017832
+Single-modality candidate fusion,0.4011586021840694
+Shared best candidate,0.4058094605954667
+Equal-weight ensemble,0.412299401145791

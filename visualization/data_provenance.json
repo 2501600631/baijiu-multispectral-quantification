@@ -1,0 +1,39 @@
+{
+  "independent_bottles": 139,
+  "outer_repetitions": 5,
+  "outer_folds": 5,
+  "paired_bottle_bootstrap_draws": 4000,
+  "random_policy_draws": 2000,
+  "numeric_identity_checks": [
+    {
+      "file": "figure_1_alcohol_baseline.csv",
+      "rows": 22,
+      "numeric_values_unchanged": true,
+      "source_sha256": "8c7be7af40c8be75eb84f23f2c7dccd70ee5944079f39b61b96a34a3877c2434"
+    },
+    {
+      "file": "figure_2_concentration_reliability.csv",
+      "rows": 22,
+      "numeric_values_unchanged": true,
+      "source_sha256": "c54333357b4bbf34862706e41d7531581671bc726337db84e5f152a760b25ac2"
+    },
+    {
+      "file": "figure_3_retention_macro.csv",
+      "rows": 12,
+      "numeric_values_unchanged": true,
+      "source_sha256": "9d1eeca1e196f4119669d92537778b95d20f3677b847cf320fa30f5d2a188576"
+    },
+    {
+      "file": "figure_3_retention_analytes.csv",
+      "rows": 11,
+      "numeric_values_unchanged": true,
+      "source_sha256": "d05e84ff74c58080dc80890dc55ffb97cec28b80fd0c4e93b9c4a2cd7fb4988f"
+    },
+    {
+      "file": "figure_4_strategy_comparison.csv",
+      "rows": 10,
+      "numeric_values_unchanged": true,
+      "source_sha256": "89928c5d10a430582d8d5f89f5bc191f54324ef15035a695e651a74c40e65b13"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="800.39952pt" height="303.59952pt" viewBox="0 0 800.39952 303.59952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-25T21:15:32.182893</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 303.59952 
+L 800.39952 303.59952 
+L 800.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.281982 216.002053 
+L 245.357855 216.002053 
+Q 256.361848 216.002053 256.361848 211.95326 
+L 256.361848 114.782221 
+Q 256.361848 110.733428 245.357855 110.733428 
+L 36.281982 110.733428 
+Q 25.277989 110.733428 25.277989 114.782221 
+L 25.277989 211.95326 
+Q 25.277989 216.002053 36.281982 216.002053 
+z
+" clip-path="url(#p90b24a81c8)" style="fill: #f2f6f8; stroke: #dde5e9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 291.731826 216.002053 
+L 500.807699 216.002053 
+Q 511.811692 216.002053 511.811692 211.95326 
+L 511.811692 114.782221 
+Q 511.811692 110.733428 500.807699 110.733428 
+L 291.731826 110.733428 
+Q 280.727833 110.733428 280.727833 114.782221 
+L 280.727833 211.95326 
+Q 280.727833 216.002053 291.731826 216.002053 
+z
+" clip-path="url(#p90b24a81c8)" style="fill: #f2f6f8; stroke: #dde5e9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 547.18167 216.002053 
+L 756.257543 216.002053 
+Q 767.261536 216.002053 767.261536 211.95326 
+L 767.261536 114.782221 
+Q 767.261536 110.733428 756.257543 110.733428 
+L 547.18167 110.733428 
+Q 536.177677 110.733428 536.177677 114.782221 
+L 536.177677 211.95326 
+Q 536.177677 216.002053 547.18167 216.002053 
+z
+" clip-path="url(#p90b24a81c8)" style="fill: #f2f6f8; stroke: #dde5e9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #24658c; font: 700 17px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="34.709983" y="42.71143" transform="rotate(-0 34.709983 42.71143)">139 Baijiu bottles  |  11 chromatographic constituents</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #75818b; font: 12px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="34.709983" y="70.823894" transform="rotate(-0 34.709983 70.823894)">Raman, ultraviolet and near-infrared spectra</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #24658c; font: 700 20px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="140.819918" y="141.078161" transform="rotate(-0 140.819918 141.078161)">10 / 11</text>
+   </g>
+   <g id="text_4">
+    <text style="font: 10px 'Arial', 'DejaVu Sans', sans-serif" transform="translate(80.237887 180.890166)">Analytes improved over the</text>
+    <text style="font: 10px 'Arial', 'DejaVu Sans', sans-serif" transform="translate(73.2832 194.278369)">fixed alcohol-strength baseline</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #c27a24; font: 700 20px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="396.269762" y="141.078161" transform="rotate(-0 396.269762 141.078161)">11 / 11</text>
+   </g>
+   <g id="text_6">
+    <text style="font: 10px 'Arial', 'DejaVu Sans', sans-serif" transform="translate(329.5682 180.984619)">High-concentration subgroups</text>
+    <text style="font: 10px 'Arial', 'DejaVu Sans', sans-serif" transform="translate(324.846325 194.183916)">below nominal interval coverage</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #16817c; font: 700 20px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="651.719606" y="141.078161" transform="rotate(-0 651.719606 141.078161)">4.76%  →  1.00%</text>
+   </g>
+   <g id="text_8">
+    <text style="font: 10px 'Arial', 'DejaVu Sans', sans-serif" transform="translate(580.287575 181.045556)">Retention gains before and after</text>
+    <text style="font: 10px 'Arial', 'DejaVu Sans', sans-serif" transform="translate(571.95945 194.244853)">matching concentration composition</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #303b43; font: 12.5px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="34.709983" y="261.695578" transform="rotate(-0 34.709983 261.695578)">Incremental prediction, concentration boundaries and selective review</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p90b24a81c8">
+   <rect x="7.2" y="7.2" width="785.99952" height="289.19952"/>
+  </clipPath>
+ </defs>
+</svg>
