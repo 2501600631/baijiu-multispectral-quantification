@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "model_fitting_on_real_data": false,
+  "numeric_archive_tables_compared": 74,
+  "numeric_archive_cells_exactly_equal": 16207894,
+  "saved_analysis_outputs_reproduced_with_rtol_atol_1e_12": [
+    "method_macro_metrics.csv",
+    "measured_alcohol_strength_paired_gains.csv",
+    "concentration_boundary_bias_and_misses.csv",
+    "random_review_macro_comparison.csv",
+    "same_count_random_review_controls.csv",
+    "selective_review_metrics.csv",
+    "selective_review_by_repeat.csv",
+    "selective_review_records.csv",
+    "interval_diagnostic_records.csv",
+    "sample_descriptive_statistics.csv",
+    "all_method_component_metrics.csv",
+    "primary_component_metrics.csv",
+    "component_comparison_table.csv"
+  ],
+  "saved_analysis_max_absolute_difference": 4.440892098500626e-16,
+  "synthetic_predictions_exactly_equal": [
+    "ridge",
+    "pls2",
+    "weighted_block_kernel"
+  ],
+  "138_candidate_library_fingerprint_exactly_equal": true,
+  "python_files_compiled": 41,
+  "python_comment_tokens": 0,
+  "python_docstrings": 0,
+  "non_english_paths_or_text": 0,
+  "target_specific_words": 0,
+  "absolute_private_paths": 0,
+  "oversized_files": 0,
+  "original_data_and_source_modified": false,
+  "validation_tier": "retrospective_internal_only",
+  "synthetic_safeguard_tests_passed": 62,
+  "synthetic_safeguard_test_duration_seconds": 43.609
+}

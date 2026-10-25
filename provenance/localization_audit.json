@@ -1,0 +1,721 @@
+{
+  "source_code": [
+    {
+      "path": "suite/classification.py",
+      "source_sha256": "cadf5a2c3fac63a5608f9033148b47aad514113691c608de0eedb60c342dbc9a",
+      "localized_sha256": "24378326bc914d005a0afe2bc991be5cfaf37d16ff68e7680eccce4af1cd21bf"
+    },
+    {
+      "path": "suite/common.py",
+      "source_sha256": "ae2ed08cb39a3b9d1e94e5d3fc4d2a1f389ac43af45f9e3ae958162ceafaaf1e",
+      "localized_sha256": "f72bf6cd26efef4e75425b41836d0bc07ed9fb57883c53b716a98f524486d457"
+    },
+    {
+      "path": "suite/data.py",
+      "source_sha256": "4e9b977fdb44e208dd5e443383777fc195cace1fc8588fe464d0364f00695eb7",
+      "localized_sha256": "3232ea37245f2e7dd99bacaad49305537633f4837a2af7ac8f020950b13c2274"
+    },
+    {
+      "path": "suite/design.py",
+      "source_sha256": "ee6d8e104b4434ad483dc97af525d19ee15ed400964373d80a7abfdf45f2cbd1",
+      "localized_sha256": "cc3732252f56357fb6ac9a08c450a42dd30f8a00301a6839a73ed6f88baf2c64"
+    },
+    {
+      "path": "suite/engine.py",
+      "source_sha256": "c0da0ed4cff30f2138ddd06937d75c985ce04f94473e697cfbab0d5ba7b68915",
+      "localized_sha256": "cd9288763a334fd10ec0775cffb5a2e5dada10709d19e48a24786e4636a5e0d3"
+    },
+    {
+      "path": "suite/final_boundaries.py",
+      "source_sha256": "9ee03629f03b2126c70f0a96aac20d1f22ce27fd304776d00c54d1f500af5943",
+      "localized_sha256": "11ec361426ffebe2d5ca45486c5bb2414129c29be6ef4f2cb77bb5fcf9da7320"
+    },
+    {
+      "path": "suite/final_cache.py",
+      "source_sha256": "cebe4c4d00e2772c7fb88d9312b35fbccadd47e4438b5a440cd680d2081ba7f3",
+      "localized_sha256": "67008f9b4caf0a6638a871377484991c71eb3cf50b3d71b4ee237e4545d0f8f7"
+    },
+    {
+      "path": "suite/final_engine.py",
+      "source_sha256": "2bb44e2983298e837c8b2904551d0a3048d6644926ad3534de78f92088da6722",
+      "localized_sha256": "eee7c9a833da627ba1816f39b1d2a30c45292e368d515b44939f625a45d0b1f7"
+    },
+    {
+      "path": "suite/final_ensemble.py",
+      "source_sha256": "179bb442a828e90af067684765587d404104fda688acb50163f91ca6de7f922e",
+      "localized_sha256": "45a5663a8209cae2d073b6989ec22c8d20cf1b12980d0ba8e24f67038bb76533"
+    },
+    {
+      "path": "suite/final_interval.py",
+      "source_sha256": "e7a85ecc127dcacf49d22ae43e354f92b30468e7bcf86bccac2c4f0210d9efb6",
+      "localized_sha256": "1e338e1272fcf865464ce8af8dc09e5ca9a827708c24620164df1778e6e8d90f"
+    },
+    {
+      "path": "suite/final_plotting.py",
+      "source_sha256": "e34b78466d0c9cde0bad8c1ea931457e16eebcc6438c20bb993f29a0c726ccea",
+      "localized_sha256": "ec8558fdd56ee37ebeac8ddf4bee45a13e9db898a7fef4c9d993fb28ceb5db60"
+    },
+    {
+      "path": "suite/final_protocol.py",
+      "source_sha256": "1704cf581d321191eb0fea9a38a7efdf225034bac3cb32e1926b9fdaab8c7628",
+      "localized_sha256": "93c9ac7cd094b7202b9d1a0fa1e6a21648af6e16bc172af4398c17ceff777d24"
+    },
+    {
+      "path": "suite/final_reporting.py",
+      "source_sha256": "e1cd058ed69af369ff1339fea51debfa01ed23432356789264d29d0f086ef4e8",
+      "localized_sha256": "136f2664c24ce99f47e265dbcaeb819dafcc9ff32c1b6681ee2c4d12a742f3c2"
+    },
+    {
+      "path": "suite/integrated_abv.py",
+      "source_sha256": "8f7a72b515db9ad3590a4e568a11b075ae79bba96a8b8d400820aebd043cf93f",
+      "localized_sha256": "864e96a9c9ce07f8802c05e6981dbe4208d56acf9c742c414731c39af6911579"
+    },
+    {
+      "path": "suite/integrated_catalog.py",
+      "source_sha256": "c7c1200e513a5c6d79dca0edb0cdf077273dace508275a48143a6f32af0cd10d",
+      "localized_sha256": "8d949c4ea68f0eb24dd259ea68f0dc3b40c13a7b1441a2af65974a584a8a5c9a"
+    },
+    {
+      "path": "suite/integrated_data.py",
+      "source_sha256": "9d0dee6b74be11b08134c5027a3c7424d0b43ee4d3183c0c20c561f89212fbd8",
+      "localized_sha256": "ef6f34ea156f6f94b089566af13dd24d4a3dc24e5682f8822506c76a2e0a0f39"
+    },
+    {
+      "path": "suite/integrated_models.py",
+      "source_sha256": "9e9db8f2d02bc31374a7d69fe7014816086c3749d1ad87b67c55aa88a996fe18",
+      "localized_sha256": "ac2c948888a3a1bcf06117032a28879cb6165f6e0c44273513e971d7a19dc398"
+    },
+    {
+      "path": "suite/models.py",
+      "source_sha256": "a420e08566d18583fd82f0fa116f81fad59f7a1712e5924a3bbccfdbbc56e7fc",
+      "localized_sha256": "338faaa0bf501d97439162e71b0b92546a1f0463c1c1cc96ebc5c1a2bd92cdc8"
+    },
+    {
+      "path": "suite/optimized_classification.py",
+      "source_sha256": "21fbdb117f074bae7764982cb2093291403d49213b0842a5cddb228281d6eaf2",
+      "localized_sha256": "f4de75112bcbfe0511b132c5fa1d0526e6e1af98abb301e33e5a64091bb3f133"
+    },
+    {
+      "path": "suite/optimized_regression.py",
+      "source_sha256": "b13fd6efd193e1f54809d382b382b51c775c5e461f942050e5b378ccc7993a74",
+      "localized_sha256": "854913576df10587412810ac55e6b9c021d36bd13a59b74609e3c28f1192e1b5"
+    },
+    {
+      "path": "suite/optimized_uncertainty.py",
+      "source_sha256": "3080c2b3ea21e28edc0c2be94aa53ee587df07b9b17993ff7e562fc2e6060be2",
+      "localized_sha256": "02cc42a3a9de5478d60ad5627860a23be79f8f71275b4d1f468cab2ee5298712"
+    },
+    {
+      "path": "suite/search.py",
+      "source_sha256": "80a381491ccd6a665b314b319927471787794d68937c3a126d2b7c2bb1caf364",
+      "localized_sha256": "fa2439d91ee063222b073fc68235917cc97d17af215ae7d1639ea350b74bef9e"
+    },
+    {
+      "path": "suite/__init__.py",
+      "source_sha256": "5b6ae3e7ac574f2fc4bb431648a43b53531f3b64cd62a34bf426e0b50ae52deb",
+      "localized_sha256": "e0ba8b72f361b6f4f71dc78a0b7a570475bdd44e176caad604ba134208475403"
+    },
+    {
+      "path": "tests/test_final_boundaries.py",
+      "source_sha256": "309dafef63b7fabeceabb4573d310d0469be76ce8afeedf8174e218699e713bd",
+      "localized_sha256": "662dec2e19ceab69bede6fdd8e9a253306ffaf0cf075d078736374220a2ab972"
+    },
+    {
+      "path": "tests/test_final_ensemble.py",
+      "source_sha256": "a9b203ff1d6da16513cf597bbf8f638934117a2dcabc3823ff64a4d66cfe209d",
+      "localized_sha256": "82b8b716d07ebb69fdc198143db4b216debb68faac5fbdf1b44af918b71bdd21"
+    },
+    {
+      "path": "tests/test_final_integration.py",
+      "source_sha256": "0b4ba0dc4decdc1726799970eb104f3c0b0bb466a310921acddee9c59cf28dd5",
+      "localized_sha256": "9846b02126124b485281b64ccf5bc69f76f4cec23d5e2f277ebdcb4f929527b5"
+    },
+    {
+      "path": "tests/test_final_interval.py",
+      "source_sha256": "fcc037d4f9e23617b118813e8078e0c807a419d4355798551fa83b02a134f94e",
+      "localized_sha256": "cf7223ae2be79066877000e23f4481791acebdbdb2defa6995b5a431de8b0bdd"
+    },
+    {
+      "path": "tests/test_final_reporting.py",
+      "source_sha256": "82fec27e959231f92828d22bf5e08c404e070318a2ffc3469753eef0d4504cbb",
+      "localized_sha256": "88571d27e5b6c84dd39f152b312d8b7fc023b5272c14b93a9d0840bac919074d"
+    },
+    {
+      "path": "tests/test_integrated_abv.py",
+      "source_sha256": "824359d00a4f762198d91353c50e76e92b3b2d60c47861d4007c5e491c6fbaf9",
+      "localized_sha256": "45cccb44508a2083f86b8625c778a441077ed06d5913efab8d56dbe9f13b7c09"
+    },
+    {
+      "path": "tests/test_integrated_models.py",
+      "source_sha256": "aee7bf74d69d8fc5f8962ea2ea6b8f9b1ec9096629dd4ae928104599e14b96d1",
+      "localized_sha256": "869a544e3359ea70a12d6be4d08ef770d03beea6dcd63e8c675f9eb01b172127"
+    },
+    {
+      "path": "tests/test_v10_router.py",
+      "source_sha256": "52941fe84e483810fceb58a5d07ebcbbd6d918c695f1e8697aca4fd4b20ccafe",
+      "localized_sha256": "843bc8c0081d423d82eede33c6a93d9dfb23569863792f488e15ee69db7bcd0c"
+    }
+  ],
+  "workbooks": [
+    {
+      "file": "raman.xlsx",
+      "source_sha256": "fbe95dd264848c8ebead7e809d767ffc21ec12a1cfbfd2301ceaf2418b1d0ee8",
+      "english_workbook_sha256": "57133fc619ae8f459cc6905df1b720ef6dbdf987bc0590f3c1ade978bdd10ab6",
+      "numeric_cells_checked": 166049,
+      "numeric_cells_exactly_equal": true,
+      "translated_text_cells": 0,
+      "non_english_workbook_style_and_theme_names_translated": true
+    },
+    {
+      "file": "uv.xlsx",
+      "source_sha256": "a1dd04d9ba5b588e7f14eceb2e99282d8234b64c5aba537feffc4c6f44fdfb51",
+      "english_workbook_sha256": "d3878016f00849c33dee9c9883b92b3f2db128570975078621dc2b8c2d5b0bd4",
+      "numeric_cells_checked": 147318,
+      "numeric_cells_exactly_equal": true,
+      "translated_text_cells": 7,
+      "non_english_workbook_style_and_theme_names_translated": true
+    },
+    {
+      "file": "nir.xlsx",
+      "source_sha256": "5d4f92fca0141a247829f914b7ac2d84cde51e465d8cdcf18bc06c6f00e86b43",
+      "english_workbook_sha256": "c788070caf62b7014d790b0d8a3b99abc148e995582016671cc69e983f1d1490",
+      "numeric_cells_checked": 1546,
+      "numeric_cells_exactly_equal": true,
+      "translated_text_cells": 1,
+      "non_english_workbook_style_and_theme_names_translated": true
+    },
+    {
+      "file": "chemistry.xlsx",
+      "source_sha256": "54d4b09b609913d2b0f7163b46daa7666d5a273ba2a1ae7a83a3a7e4e22502a4",
+      "english_workbook_sha256": "b0f0e989282906252dc8fda1ee8ab56ffccab57baf1178527c424c1558775b38",
+      "numeric_cells_checked": 2502,
+      "numeric_cells_exactly_equal": true,
+      "translated_text_cells": 718,
+      "non_english_workbook_style_and_theme_names_translated": true
+    }
+  ],
+  "archives": [
+    {
+      "path": "archives/main/ablation/tables/candidate_library_by_fold.csv.gz",
+      "source_sha256": "df1598ff23f5a1495017da0a10355402bf3ea7df34e141381163327a48367294",
+      "localized_sha256": "1f10b11e624d823111eb6f2ecff963bbecf8114160600053be276e674643a2f8",
+      "numeric_text_unchanged": true,
+      "rows": 3374
+    },
+    {
+      "path": "archives/main/ablation/tables/macro_by_repeat.csv.gz",
+      "source_sha256": "0d40fd5ef00856737b3f7312580b81e9f3047896fea2cd9350728e1a23d4b6b6",
+      "localized_sha256": "d4b0cd08322f219c4fe4b2be7dad07858f543bc570883a130eda2fba6d6f110c",
+      "numeric_text_unchanged": true,
+      "rows": 50
+    },
+    {
+      "path": "archives/main/ablation/tables/macro_regression_summary.csv.gz",
+      "source_sha256": "a4a7d801dd484908466f832edef0635d98a511ce02555eb469a45d4731838e79",
+      "localized_sha256": "c390e083367ac70c474c13f5e7f7b433629496097dd71602eac135ef6107902f",
+      "numeric_text_unchanged": true,
+      "rows": 10
+    },
+    {
+      "path": "archives/main/ablation/tables/paired_comparisons.csv.gz",
+      "source_sha256": "2f59e859e49e25356abe87efc93890db431f79cf23f1ff463044145652e8b4f5",
+      "localized_sha256": "577f9be0c29f450fc02ee74d71beeda97a9142af1d1aab8136dcc9a5d2f63a9c",
+      "numeric_text_unchanged": true,
+      "rows": 432
+    },
+    {
+      "path": "archives/main/ablation/tables/paired_gain_by_repeat.csv.gz",
+      "source_sha256": "3cb68b2c62b1a6597011ce5c2e44aba5d323a44180132dc0c197a90179bf8cbf",
+      "localized_sha256": "092a4525d0d6950a38756ba8e45bc4886c20c98427652c4570e810ff44c8b479",
+      "numeric_text_unchanged": true,
+      "rows": 2200
+    },
+    {
+      "path": "archives/main/ablation/tables/real_winning_algorithm_mappings.csv.gz",
+      "source_sha256": "e46f14e5814bc0512892c654762fcb382179edbec3d476c4b32cb5205791ed80",
+      "localized_sha256": "7d86707cc8358f651bcb95e614fc307711619f16b0f54162af58c297ef373bbc",
+      "numeric_text_unchanged": true,
+      "rows": 2750
+    },
+    {
+      "path": "archives/main/ablation/tables/records_regression.csv.gz",
+      "source_sha256": "b3adb480c364e029c89b99b6e177656701c12bc8b3d585b73a8c0d8dfb4fb2fa",
+      "localized_sha256": "62e5fccd23ff124bc372451aa90723293fbbded7f95661796b3cb62d2c95b284",
+      "numeric_text_unchanged": true,
+      "rows": 76450
+    },
+    {
+      "path": "archives/main/ablation/tables/regression_by_repeat.csv.gz",
+      "source_sha256": "51061f14e5e762459f59d3126c83607e1513664312c97ebb28be03d91501ef5f",
+      "localized_sha256": "43a8c38d49e51660102881026250d39999af73cd48b2a490fb8cff9649c9fd6e",
+      "numeric_text_unchanged": true,
+      "rows": 550
+    },
+    {
+      "path": "archives/main/ablation/tables/regression_summary.csv.gz",
+      "source_sha256": "6edfa228b53d94b55eb961bf3a7e6fb5ed77420c0ae09fa5bd2c5b249b13ca16",
+      "localized_sha256": "fd6b5e936ad058b0375591eded9a2a9807ec4c51987a8b6b337ceb499603b648",
+      "numeric_text_unchanged": true,
+      "rows": 110
+    },
+    {
+      "path": "archives/main/ablation/tables/route_stability.csv.gz",
+      "source_sha256": "d703e41bf862ffeaecf8a7f4fbcedd207132e8b33148247c23c9ab9e1efe0460",
+      "localized_sha256": "0f7c3277c16af7707d218baca9946fc58192018e49a018b13d1e674d0a80acc6",
+      "numeric_text_unchanged": true,
+      "rows": 214
+    },
+    {
+      "path": "archives/main/ablation/tables/strategy_selection_by_fold.csv.gz",
+      "source_sha256": "7dfb9936e1eb2ee9e64f7e5c12a3df89c9cbf425f3f563b257c0800a72708382",
+      "localized_sha256": "14095e46af862c8c91f6fb9264a170c9193909f1abf014fae105c9773217139f",
+      "numeric_text_unchanged": true,
+      "rows": 275
+    },
+    {
+      "path": "archives/main/ablation/tables/strategy_selection_stability.csv.gz",
+      "source_sha256": "f642362e9e48daae15075d5bf57bd9246f7cb31d6a503f5ce9d8cc247d889732",
+      "localized_sha256": "a52a2af527401e6fd6c4037937034aa76271fc2c12ad0255bca5c257bdf6f92c",
+      "numeric_text_unchanged": true,
+      "rows": 63
+    },
+    {
+      "path": "archives/main/ablation/tables/tolerance_curves.csv.gz",
+      "source_sha256": "39e43d2e759b3df33501cae0626072dca1dd8c979be9dc1d13719071e2e68e42",
+      "localized_sha256": "00e5e8e8e8aabac2b51f1c68e7e1d9b043b6e69996f12ae5dbc9317e03c33f38",
+      "numeric_text_unchanged": true,
+      "rows": 2200
+    },
+    {
+      "path": "archives/main/ablation/tables/weights_by_fold.csv.gz",
+      "source_sha256": "a58bdf52a0c6ce14106ed257fd36b87760bb1c07ee24958a7b0d85b0e6059f1e",
+      "localized_sha256": "4802106f35be80ce24c69d67e69afa5aaf144b7c4979a208f3058e9bd254d79c",
+      "numeric_text_unchanged": true,
+      "rows": 111342
+    },
+    {
+      "path": "archives/main/ablation/tables/weight_stability.csv.gz",
+      "source_sha256": "acc97019efe1084c8876d3ed37fd2a71def474597236113404b11c9115e483b3",
+      "localized_sha256": "757bc665cbed01cc800795af4b7113f0a44b7d29d3ae279a18bf0b3e3ce3bec7",
+      "numeric_text_unchanged": true,
+      "rows": 4488
+    },
+    {
+      "path": "archives/main/interval/tables/candidate_library_by_fold.csv.gz",
+      "source_sha256": "422c9d4584515690821473d28d3200d0f7b126eab548e6ee04d87f3d2382c7da",
+      "localized_sha256": "eacea165433473aa7f2e1b96be8c4705b40451453facb6588684cc790a26acb1",
+      "numeric_text_unchanged": true,
+      "rows": 3345
+    },
+    {
+      "path": "archives/main/interval/tables/interval_boundary_summary.csv.gz",
+      "source_sha256": "8987f9a22e3b1987fb3fa97abaa1baa5bf69221426c022d1c73bc1fd258c93c8",
+      "localized_sha256": "8764579781a0b252d7f660b0d0fe9c6abf360e0632df8cedde9aacac86a63ba0",
+      "numeric_text_unchanged": true,
+      "rows": 528
+    },
+    {
+      "path": "archives/main/interval/tables/interval_joint_summary.csv.gz",
+      "source_sha256": "f09e591067449951a3643c48a5ceb80195856cc0da5f749daf590874c5b30e1a",
+      "localized_sha256": "2476fdc13bdbbab16a651c0be5b4140952e9207efc0764ad74c55dd38e4eab49",
+      "numeric_text_unchanged": true,
+      "rows": 12
+    },
+    {
+      "path": "archives/main/interval/tables/interval_summary.csv.gz",
+      "source_sha256": "9cf6103c4a8a6bbaeb0bbec54e8eedf8cd0cfb7a3fe915027afc555eeaa0aa5a",
+      "localized_sha256": "5d028c53d9933f10902cc3c91c2c2db1f5d2bc7502a0c7d14ab0de7aa0991477",
+      "numeric_text_unchanged": true,
+      "rows": 132
+    },
+    {
+      "path": "archives/main/interval/tables/macro_by_repeat.csv.gz",
+      "source_sha256": "ae76c528d75a202af9c9e0e44c181c0f80505f90ead64dd821e6ce25daa0d5ec",
+      "localized_sha256": "8b0751386ebf2d834a66d91cbcb7f880af04972e40f9a5488e05351d01c0908a",
+      "numeric_text_unchanged": true,
+      "rows": 15
+    },
+    {
+      "path": "archives/main/interval/tables/macro_regression_summary.csv.gz",
+      "source_sha256": "71ff21446c4829c01488813eadec2619242ad3ffc3138a0f34399e6d73901391",
+      "localized_sha256": "eaebfc40d2ea02ecd94b2753e8f011b875605270c6e4e1b743fd477131a99872",
+      "numeric_text_unchanged": true,
+      "rows": 3
+    },
+    {
+      "path": "archives/main/interval/tables/paired_comparisons.csv.gz",
+      "source_sha256": "01b2245323a6f064fc091d3d350e46b86b85ce5caa9e97d2ebd8828d82d35e3f",
+      "localized_sha256": "aa4a7edcaf646825cb0e4089dc55bafc04df293868d127264ce2d3a06b1a1609",
+      "numeric_text_unchanged": true,
+      "rows": 48
+    },
+    {
+      "path": "archives/main/interval/tables/paired_gain_by_repeat.csv.gz",
+      "source_sha256": "5d88218fed1b8ee4cd4d6218311b1679de110eced578183c5fa2b38e4e525440",
+      "localized_sha256": "c59b6775f7ce81ecfba3bc8ea8366d7ffc80be350903904995491c4e14ebe67a",
+      "numeric_text_unchanged": true,
+      "rows": 330
+    },
+    {
+      "path": "archives/main/interval/tables/real_winning_algorithm_mappings.csv.gz",
+      "source_sha256": "f6e6d397ab7bf68a760ecd98b71f00dc7f3a1ecfa6b6e21aac9b7d1fe98236ac",
+      "localized_sha256": "88c98fb0b47540437baf7f281a89e19c56ebf3a358dcc486874d5f0d916538da",
+      "numeric_text_unchanged": true,
+      "rows": 2750
+    },
+    {
+      "path": "archives/main/interval/tables/records_calibration_regression.csv.gz",
+      "source_sha256": "45c8490133f267038f4430527ea667dd2884b585fb6db9588ae5f61e68bd520c",
+      "localized_sha256": "23c18fec3d5d305c2f65ca95aa3103e683a1c3f7647d8ccd6ce3f8ad2adae88a",
+      "numeric_text_unchanged": true,
+      "rows": 46200
+    },
+    {
+      "path": "archives/main/interval/tables/records_interval_regression.csv.gz",
+      "source_sha256": "26620c0277fed2c621f133729dd6eb458423ae23b1d7d82f7194c64fcf855a9a",
+      "localized_sha256": "6810c3115199f2eeace3d6b26e9f34b497124d51f9bd35e5943eb5993945bf56",
+      "numeric_text_unchanged": true,
+      "rows": 91740
+    },
+    {
+      "path": "archives/main/interval/tables/records_regression.csv.gz",
+      "source_sha256": "03b54a016824b4b188354c81d6ad0bb976fd602d9274e59b73a8cef5582c0d30",
+      "localized_sha256": "8831f346a6fbb4bf73c45b80a32cab6e760aa3185fb7bce136fb175fdc79a14c",
+      "numeric_text_unchanged": true,
+      "rows": 22935
+    },
+    {
+      "path": "archives/main/interval/tables/records_risk_predictions.csv.gz",
+      "source_sha256": "a9fc93c5ed40f7329c3e6692b646e6d8107d31d84e12a2bcf31729358da97f4e",
+      "localized_sha256": "31099607b4ba728abc0770720b484c6de805c3e3315fc1555cee2f377ca5aa92",
+      "numeric_text_unchanged": true,
+      "rows": 91740
+    },
+    {
+      "path": "archives/main/interval/tables/records_risk_rules.csv.gz",
+      "source_sha256": "61c76d66a705b1d07e61f04075b7640e5bf0c97d2d63525ca604b4962f6b88fa",
+      "localized_sha256": "f3e9d2d9ddbc90b950c7eda2ddaa25abcfdf03e6233af439fd3b7ea09034c643",
+      "numeric_text_unchanged": true,
+      "rows": 3300
+    },
+    {
+      "path": "archives/main/interval/tables/regression_by_repeat.csv.gz",
+      "source_sha256": "12311ee48d2bcc8b06b95aec22dd06c1a90cf8cc6ce37eb4c4d7acfd2d5e7c5f",
+      "localized_sha256": "9ea250f0f061518230e06bd9549bc58ff805574c9b57150ea48d04a9e7c1e4ad",
+      "numeric_text_unchanged": true,
+      "rows": 165
+    },
+    {
+      "path": "archives/main/interval/tables/regression_summary.csv.gz",
+      "source_sha256": "c7a1589f242fa2ff8e92c850d4b265dc8a8eb9ce75e42850f4d62cb2312ba870",
+      "localized_sha256": "9ecd4e148808ea856a22c1860c527b36d94addebed22d43e4aa0ea41af71d171",
+      "numeric_text_unchanged": true,
+      "rows": 33
+    },
+    {
+      "path": "archives/main/interval/tables/risk_summary.csv.gz",
+      "source_sha256": "2acbe949507b8ff7e3eda48c1d506aea916cdac38845d470ec3fb2da5d755e11",
+      "localized_sha256": "38d8e00b46130dcd768a448f20b606b29b380da926933e995c0e6d7857fcc777",
+      "numeric_text_unchanged": true,
+      "rows": 132
+    },
+    {
+      "path": "archives/main/interval/tables/route_stability.csv.gz",
+      "source_sha256": "92313e241ac020be7906807560423445226c63d8a342be422b38e9f36600bb99",
+      "localized_sha256": "c7346799af040abe8dd32e45abbbe2d86b065429078f3646e61ef9db90a07ab8",
+      "numeric_text_unchanged": true,
+      "rows": 250
+    },
+    {
+      "path": "archives/main/interval/tables/strategy_selection_by_fold.csv.gz",
+      "source_sha256": "32ae4211e5bb08b41422f34c39bb7969fc4aac7a437ef6470e37a9cfdefb16f9",
+      "localized_sha256": "258dfa49de529af3d97dc09d403ec5b6e7ca521bf94b250138422dfa4d6f29fb",
+      "numeric_text_unchanged": true,
+      "rows": 275
+    },
+    {
+      "path": "archives/main/interval/tables/strategy_selection_stability.csv.gz",
+      "source_sha256": "29f421daac5ccfcabb7878b2d9c0defc37d5ff4b1d3876f4daf918d8403b51b8",
+      "localized_sha256": "fe48cfd0618fd1af77940b0f53d8af7c9e27be337a8a1fb163c74421f6f7ed3f",
+      "numeric_text_unchanged": true,
+      "rows": 71
+    },
+    {
+      "path": "archives/main/interval/tables/tolerance_curves.csv.gz",
+      "source_sha256": "babfe448ccba454cabd836224f037d0e3a60b59a539a9ab9626bc40029fea22d",
+      "localized_sha256": "277aab21ee3667c11586889ef1870043cfb128229f4647cd035dca29c7fe996c",
+      "numeric_text_unchanged": true,
+      "rows": 660
+    },
+    {
+      "path": "archives/main/interval/tables/weights_by_fold.csv.gz",
+      "source_sha256": "63502325edad0655025f378ac37ee68a90aa01304aa9961ec7a9dd6ce1b44f28",
+      "localized_sha256": "20ba1aaba55f7f6befd5606e0f55acf6f37815d3217738f44e076c3afadb6076",
+      "numeric_text_unchanged": true,
+      "rows": 110385
+    },
+    {
+      "path": "archives/main/interval/tables/weight_stability.csv.gz",
+      "source_sha256": "65741f8f7b22d7097b4d330db9f1be0af6bef02bd1390eaf20cdbc56e66b0190",
+      "localized_sha256": "fbba6f6f18fa1811e708c13edf2c64aee6f046a95308bf3ecfd4f252c4a17171",
+      "numeric_text_unchanged": true,
+      "rows": 4488
+    },
+    {
+      "path": "archives/main/boundaries/tables/boundary_groups_summary.csv.gz",
+      "source_sha256": "04a4bf83cba90168da08ced5b9f2b25d3e0e9baac5029acb9b90184ece52f534",
+      "localized_sha256": "849f2244b68452e1981f04bdcda37752c5b59aa6bff222f87ae8c8549acbf31e",
+      "numeric_text_unchanged": true,
+      "rows": 176
+    },
+    {
+      "path": "archives/main/boundaries/tables/candidate_library_by_fold.csv.gz",
+      "source_sha256": "df1598ff23f5a1495017da0a10355402bf3ea7df34e141381163327a48367294",
+      "localized_sha256": "1f10b11e624d823111eb6f2ecff963bbecf8114160600053be276e674643a2f8",
+      "numeric_text_unchanged": true,
+      "rows": 3374
+    },
+    {
+      "path": "archives/main/boundaries/tables/macro_by_repeat.csv.gz",
+      "source_sha256": "fc911100bb20f157c89f129a9b41f832797a1388dba801decb7a11fc994fc036",
+      "localized_sha256": "c3de091b826a6a59e53aad5e9af3c20a698989726a5ed6811ec2e54e1911aa4e",
+      "numeric_text_unchanged": true,
+      "rows": 20
+    },
+    {
+      "path": "archives/main/boundaries/tables/macro_regression_summary.csv.gz",
+      "source_sha256": "6451b89889d8a349ad58def90a74ebc43c6c7f4c15caaeac43d2753bc3027903",
+      "localized_sha256": "d2bb6c589198137d9a4ace31b4ba0e932764711c791d39b4ee49cb5a0c169013",
+      "numeric_text_unchanged": true,
+      "rows": 4
+    },
+    {
+      "path": "archives/main/boundaries/tables/occlusion_summary.csv.gz",
+      "source_sha256": "6ff0105bf655a3a69171b18d6507e953de6c3ec6f5436338d2e6849b5fc44da6",
+      "localized_sha256": "43d201b20fa5edc9049afce9cde1a916852f6434648c58a70b87c147473a2ab8",
+      "numeric_text_unchanged": true,
+      "rows": 594
+    },
+    {
+      "path": "archives/main/boundaries/tables/paired_comparisons.csv.gz",
+      "source_sha256": "7083feb60fca95230ab7bd7b05a23e1faea29515892c1e40be13c68d9dfec8fb",
+      "localized_sha256": "2bd45c1fe41ba64e2dcceb8993f345de22418ff690d1c09cabb559c5194ae285",
+      "numeric_text_unchanged": true,
+      "rows": 72
+    },
+    {
+      "path": "archives/main/boundaries/tables/paired_gain_by_repeat.csv.gz",
+      "source_sha256": "b0d6932c9a93a58a3158198501101eebd4533f83c14c0824f90947ecbf0b57f0",
+      "localized_sha256": "3889e802229bd94269d7034d1cb46a2f297c24cc8ca7d2cb261eb5631ca8c306",
+      "numeric_text_unchanged": true,
+      "rows": 440
+    },
+    {
+      "path": "archives/main/boundaries/tables/real_winning_algorithm_mappings.csv.gz",
+      "source_sha256": "e46f14e5814bc0512892c654762fcb382179edbec3d476c4b32cb5205791ed80",
+      "localized_sha256": "7d86707cc8358f651bcb95e614fc307711619f16b0f54162af58c297ef373bbc",
+      "numeric_text_unchanged": true,
+      "rows": 2750
+    },
+    {
+      "path": "archives/main/boundaries/tables/records_diagnostics.csv.gz",
+      "source_sha256": "59aea4650a1816718a5b8ccbd78026bee26a75b829ab33c0a59d3c2330137bd5",
+      "localized_sha256": "d2a7ace7152501cbe337845ee2e79b3b929b86ed33b9f380998d55f1a397d6aa",
+      "numeric_text_unchanged": true,
+      "rows": 7645
+    },
+    {
+      "path": "archives/main/boundaries/tables/records_occlusion.csv.gz",
+      "source_sha256": "141160f928a348818fb66e2e5cdc2240c41fc5f62af57337482d0275e24aca07",
+      "localized_sha256": "a2fcedd0fd16ee51c4b7e5aa4d513bb25022f9a0426fd658bb293c85368b2a7c",
+      "numeric_text_unchanged": true,
+      "rows": 412830
+    },
+    {
+      "path": "archives/main/boundaries/tables/records_regression.csv.gz",
+      "source_sha256": "9b3377d0d857a03e4b87924ad58d5b39eab3e59e3d84be39018133a7a5e7b08f",
+      "localized_sha256": "8ebef25e5f69aa4ff0bee356c1d631b89f860c650850c9ec48784f324a399595",
+      "numeric_text_unchanged": true,
+      "rows": 30580
+    },
+    {
+      "path": "archives/main/boundaries/tables/records_stress.csv.gz",
+      "source_sha256": "f2bee169351f94e304ec05b4d92ffeca8f92e4877d60a144d1380f94846fb295",
+      "localized_sha256": "25f5e9dc9ce14ebcc1f1a78d7107e341b7c520f33f6ede093c15dc650b149570",
+      "numeric_text_unchanged": true,
+      "rows": 412830
+    },
+    {
+      "path": "archives/main/boundaries/tables/regression_by_repeat.csv.gz",
+      "source_sha256": "eab75e105d8111a1d1182261c819bb3029c11527507bc5df2e434534472eca88",
+      "localized_sha256": "214a908cd7beca38c59e9165787cfd48aade875d86cb977bd7743cacea930c88",
+      "numeric_text_unchanged": true,
+      "rows": 220
+    },
+    {
+      "path": "archives/main/boundaries/tables/regression_summary.csv.gz",
+      "source_sha256": "17e1b65a1336b200801a6088c01536207932507a744f451de92765e6bbb6fb96",
+      "localized_sha256": "1ad4026b66148639ddd53015bb15aeb61b03954468327a2d46f115b1e2c0b36a",
+      "numeric_text_unchanged": true,
+      "rows": 44
+    },
+    {
+      "path": "archives/main/boundaries/tables/route_stability.csv.gz",
+      "source_sha256": "d703e41bf862ffeaecf8a7f4fbcedd207132e8b33148247c23c9ab9e1efe0460",
+      "localized_sha256": "0f7c3277c16af7707d218baca9946fc58192018e49a018b13d1e674d0a80acc6",
+      "numeric_text_unchanged": true,
+      "rows": 214
+    },
+    {
+      "path": "archives/main/boundaries/tables/strategy_selection_by_fold.csv.gz",
+      "source_sha256": "7dfb9936e1eb2ee9e64f7e5c12a3df89c9cbf425f3f563b257c0800a72708382",
+      "localized_sha256": "14095e46af862c8c91f6fb9264a170c9193909f1abf014fae105c9773217139f",
+      "numeric_text_unchanged": true,
+      "rows": 275
+    },
+    {
+      "path": "archives/main/boundaries/tables/strategy_selection_stability.csv.gz",
+      "source_sha256": "f642362e9e48daae15075d5bf57bd9246f7cb31d6a503f5ce9d8cc247d889732",
+      "localized_sha256": "a52a2af527401e6fd6c4037937034aa76271fc2c12ad0255bca5c257bdf6f92c",
+      "numeric_text_unchanged": true,
+      "rows": 63
+    },
+    {
+      "path": "archives/main/boundaries/tables/stress_summary.csv.gz",
+      "source_sha256": "09f22f18911214622339ac2548164c594128ea7573d3fccf08c8c8d712abf18a",
+      "localized_sha256": "726bd114549c8c682d64463a9b82aa26085bd6f3a1763f8756d22a8ff9ef4b47",
+      "numeric_text_unchanged": true,
+      "rows": 594
+    },
+    {
+      "path": "archives/main/boundaries/tables/tolerance_curves.csv.gz",
+      "source_sha256": "5a943baca9f179b641d9fbc4e0d2c7a23d62fca4f899e729ee579a15f1b7c972",
+      "localized_sha256": "f7156d0297116a7d9a25fca87a4175307ede291a787b79c94a9613872945841c",
+      "numeric_text_unchanged": true,
+      "rows": 880
+    },
+    {
+      "path": "archives/main/boundaries/tables/weights_by_fold.csv.gz",
+      "source_sha256": "a58bdf52a0c6ce14106ed257fd36b87760bb1c07ee24958a7b0d85b0e6059f1e",
+      "localized_sha256": "4802106f35be80ce24c69d67e69afa5aaf144b7c4979a208f3058e9bd254d79c",
+      "numeric_text_unchanged": true,
+      "rows": 111342
+    },
+    {
+      "path": "archives/main/boundaries/tables/weight_stability.csv.gz",
+      "source_sha256": "acc97019efe1084c8876d3ed37fd2a71def474597236113404b11c9115e483b3",
+      "localized_sha256": "757bc665cbed01cc800795af4b7113f0a44b7d29d3ae279a18bf0b3e3ce3bec7",
+      "numeric_text_unchanged": true,
+      "rows": 4488
+    },
+    {
+      "path": "archives/main/measured_abv/tables/candidate_library_by_fold.csv.gz",
+      "source_sha256": "df1598ff23f5a1495017da0a10355402bf3ea7df34e141381163327a48367294",
+      "localized_sha256": "1f10b11e624d823111eb6f2ecff963bbecf8114160600053be276e674643a2f8",
+      "numeric_text_unchanged": true,
+      "rows": 3374
+    },
+    {
+      "path": "archives/main/measured_abv/tables/macro_by_repeat.csv.gz",
+      "source_sha256": "b3f56155b520922b9bdab3537c5841d8d3d7ac88b46e5842d26a2ac554b8858b",
+      "localized_sha256": "13ec4e02623ac1a2e7c7d554fb6a749daf90d4b6b56c491671589d5deebde4c1",
+      "numeric_text_unchanged": true,
+      "rows": 25
+    },
+    {
+      "path": "archives/main/measured_abv/tables/macro_regression_summary.csv.gz",
+      "source_sha256": "098cc172eefbeb7215256c6f5314dea4b092b95d9b7071bd584fb409641b37a6",
+      "localized_sha256": "bf7c318948f5448590d433c9249c08ae90337cf0db58eb42aaa97d110b3b04a2",
+      "numeric_text_unchanged": true,
+      "rows": 5
+    },
+    {
+      "path": "archives/main/measured_abv/tables/paired_comparisons.csv.gz",
+      "source_sha256": "922f959dbcdeceb4a559a259b72aeee755316f1e4f5ef409d190540058324001",
+      "localized_sha256": "4d028a1defb47f594ae9d4af3192078d7bda97d8d3e93392b7a60907921de067",
+      "numeric_text_unchanged": true,
+      "rows": 48
+    },
+    {
+      "path": "archives/main/measured_abv/tables/paired_gain_by_repeat.csv.gz",
+      "source_sha256": "d4f9ec4637591583000f06143769baa895ede9cd63e3d17cdd92bfbe1a831489",
+      "localized_sha256": "ae8512dbb63828fb2ce3e181a944a2d3275a5d7e437e4f100c01ac1a0ab5a0d1",
+      "numeric_text_unchanged": true,
+      "rows": 275
+    },
+    {
+      "path": "archives/main/measured_abv/tables/real_winning_algorithm_mappings.csv.gz",
+      "source_sha256": "e46f14e5814bc0512892c654762fcb382179edbec3d476c4b32cb5205791ed80",
+      "localized_sha256": "7d86707cc8358f651bcb95e614fc307711619f16b0f54162af58c297ef373bbc",
+      "numeric_text_unchanged": true,
+      "rows": 2750
+    },
+    {
+      "path": "archives/main/measured_abv/tables/records_regression.csv.gz",
+      "source_sha256": "bd5e4565e04be4d2f8eae56eaf57afe911054b49819d53176f74447029ad3722",
+      "localized_sha256": "a634a34919dd22fe7f57f5f73573593ef243bc38f7ebca2c883237c7920ca5e5",
+      "numeric_text_unchanged": true,
+      "rows": 38225
+    },
+    {
+      "path": "archives/main/measured_abv/tables/regression_by_repeat.csv.gz",
+      "source_sha256": "e05060471501d50594ee5ff8c44fe9a5ea67bdf954eea4164f9fcc14e2c33719",
+      "localized_sha256": "812869b652911018092409f6d47a0a2325a0e5c5c8333e42ad46ad18d8af2b80",
+      "numeric_text_unchanged": true,
+      "rows": 275
+    },
+    {
+      "path": "archives/main/measured_abv/tables/regression_summary.csv.gz",
+      "source_sha256": "deaed671c25a23fd70db852f74ec57bb25f280144bcd30fd4b9e762b234d907e",
+      "localized_sha256": "729c78b2a47a38bfcd47c2cad3bc1c099d22eeae92ff955c279749f9bbd0f256",
+      "numeric_text_unchanged": true,
+      "rows": 55
+    },
+    {
+      "path": "archives/main/measured_abv/tables/route_stability.csv.gz",
+      "source_sha256": "d703e41bf862ffeaecf8a7f4fbcedd207132e8b33148247c23c9ab9e1efe0460",
+      "localized_sha256": "0f7c3277c16af7707d218baca9946fc58192018e49a018b13d1e674d0a80acc6",
+      "numeric_text_unchanged": true,
+      "rows": 214
+    },
+    {
+      "path": "archives/main/measured_abv/tables/strategy_selection_by_fold.csv.gz",
+      "source_sha256": "7dfb9936e1eb2ee9e64f7e5c12a3df89c9cbf425f3f563b257c0800a72708382",
+      "localized_sha256": "14095e46af862c8c91f6fb9264a170c9193909f1abf014fae105c9773217139f",
+      "numeric_text_unchanged": true,
+      "rows": 275
+    },
+    {
+      "path": "archives/main/measured_abv/tables/strategy_selection_stability.csv.gz",
+      "source_sha256": "f642362e9e48daae15075d5bf57bd9246f7cb31d6a503f5ce9d8cc247d889732",
+      "localized_sha256": "a52a2af527401e6fd6c4037937034aa76271fc2c12ad0255bca5c257bdf6f92c",
+      "numeric_text_unchanged": true,
+      "rows": 63
+    },
+    {
+      "path": "archives/main/measured_abv/tables/tolerance_curves.csv.gz",
+      "source_sha256": "878414588f2ffb74ee262df8b6d555f57f90fbb101836ed5b981990bf73da315",
+      "localized_sha256": "db38302f31529cb9bdd066581da0c939eb1a808f3d1b177836ee76a34c9f98dc",
+      "numeric_text_unchanged": true,
+      "rows": 1100
+    },
+    {
+      "path": "archives/main/measured_abv/tables/weights_by_fold.csv.gz",
+      "source_sha256": "a58bdf52a0c6ce14106ed257fd36b87760bb1c07ee24958a7b0d85b0e6059f1e",
+      "localized_sha256": "4802106f35be80ce24c69d67e69afa5aaf144b7c4979a208f3058e9bd254d79c",
+      "numeric_text_unchanged": true,
+      "rows": 111342
+    },
+    {
+      "path": "archives/main/measured_abv/tables/weight_stability.csv.gz",
+      "source_sha256": "acc97019efe1084c8876d3ed37fd2a71def474597236113404b11c9115e483b3",
+      "localized_sha256": "757bc665cbed01cc800795af4b7113f0a44b7d29d3ae279a18bf0b3e3ce3bec7",
+      "numeric_text_unchanged": true,
+      "rows": 4488
+    }
+  ],
+  "original_source_modified": false,
+  "numeric_prediction_values_changed": false,
+  "model_fitting": false,
+  "raw_strings_translated": true
+}
